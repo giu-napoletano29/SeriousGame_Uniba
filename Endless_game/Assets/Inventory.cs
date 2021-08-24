@@ -8,6 +8,8 @@ public class Inventory : MonoBehaviour
     private int allSlots;
     private int enabledSlots;
     private GameObject[] slot;
+    private Collider bin;
+    private bool BinEnabled = false;
 
     public GameObject slotHolder;
 
@@ -19,18 +21,35 @@ public class Inventory : MonoBehaviour
         for(int i = 0; i < allSlots; i++)
         {
             slot[i] = slotHolder.transform.GetChild(i).gameObject;
-
-            Debug.Log("Slot " + i + " | name: " + slot[i].GetComponent<Slot>().item);
             if (slot[i].GetComponent<Slot>().item == null)
             {
                 slot[i].GetComponent<Slot>().empty = true;
             }
-            Debug.Log("Empty " + slot[i].GetComponent<Slot>().empty);
         }
     }
     void Update()
     {
+        int i = -1;
+        if (BinEnabled)
+        {
 
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                Debug.Log("Upress");
+                i = 0;
+            }
+            else if (Input.GetKeyDown(KeyCode.I))
+            {
+                Debug.Log("Ipress");
+                i = 1;
+            }
+            else if (Input.GetKeyDown(KeyCode.O))
+            {
+                Debug.Log("Opress");
+                i = 2;
+            }
+            RemoveItem(i, bin.tag);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -42,13 +61,29 @@ public class Inventory : MonoBehaviour
 
             AddItem(itemPickedUp , item.ID, item.type, item.desc, item.icon);
         }
+
+        
+        if (other.tag == "Bin_plastic" || other.tag == "Bin_glass" || other.tag == "Bin_paper")
+        {
+            BinEnabled = true;
+            bin = other;
+            Debug.Log("Bin enabled");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Bin_plastic" || other.tag == "Bin_glass" || other.tag == "Bin_paper")
+        {
+            BinEnabled = false;
+            Debug.Log("Bin disabled");
+        }
     }
 
     void AddItem(GameObject itemObj , int ID, string type, string desc, Sprite icon)
     {
         for (int i = 0; i < allSlots; i++)
         {
-            Debug.Log("AddItem empty: " + slot[i].GetComponent<Slot>().empty + " name: " + slot[i].GetComponent<Slot>().name + " obj: " + slot[i].GetComponent<Slot>().item);
             if (slot[i].GetComponent<Slot>().empty)
             {
                 itemObj.GetComponent<Item>().PickedUp = true;
@@ -64,8 +99,27 @@ public class Inventory : MonoBehaviour
 
                 slot[i].GetComponent<Slot>().UpdateSlot();
                 slot[i].GetComponent<Slot>().empty = false;
-                Debug.Log("Post if");
                 return;
+            }
+        }
+    }
+
+    void RemoveItem(int i, string type)
+    {
+        if (i > -1)
+        {
+            if (string.Equals(type, slot[i].GetComponent<Slot>().type))
+            {
+
+                slot[i].GetComponent<Slot>().item = null;
+                slot[i].GetComponent<Slot>().icon = null;
+                slot[i].GetComponent<Slot>().ID = -1;
+                slot[i].GetComponent<Slot>().desc = null;
+
+                //slot[i].transform.GetChild(0);
+                slot[i].transform.DetachChildren();
+                slot[i].GetComponent<Slot>().UpdateSlot();
+                slot[i].GetComponent<Slot>().empty = true;
             }
         }
     }

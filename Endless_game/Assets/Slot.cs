@@ -8,7 +8,7 @@ public class Slot : MonoBehaviour
     public GameObject item;
     public bool empty;
     public Sprite icon;
-    public int ID;
+    public int ID = -1;
     public string type;
     public string desc;
 

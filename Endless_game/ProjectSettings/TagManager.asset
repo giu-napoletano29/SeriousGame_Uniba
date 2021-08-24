@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Item
+  - Bin_plastic
+  - Bin_paper
+  - Bin_glass
   layers:
   - Default
   - TransparentFX
