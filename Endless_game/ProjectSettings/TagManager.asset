@@ -8,6 +8,7 @@ TagManager:
   - Bin_plastic
   - Bin_paper
   - Bin_glass
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX

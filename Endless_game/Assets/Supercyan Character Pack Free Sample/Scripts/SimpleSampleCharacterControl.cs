@@ -218,4 +218,9 @@ public class SimpleSampleCharacterControl : MonoBehaviour
             m_animator.SetTrigger("Jump");
         }
     }
+
+    public void setMovSpeedPub(int speed)
+    {
+        m_moveSpeed = speed;
+    }
 }

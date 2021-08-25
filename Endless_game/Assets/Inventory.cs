@@ -76,6 +76,7 @@ public class Inventory : MonoBehaviour
         if (other.tag == "Bin_plastic" || other.tag == "Bin_glass" || other.tag == "Bin_paper")
         {
             BinEnabled = false;
+            bin = null;
             Debug.Log("Bin disabled");
         }
     }
@@ -115,11 +116,16 @@ public class Inventory : MonoBehaviour
                 slot[i].GetComponent<Slot>().icon = null;
                 slot[i].GetComponent<Slot>().ID = -1;
                 slot[i].GetComponent<Slot>().desc = null;
+                slot[i].GetComponent<Slot>().type = null;
 
                 //slot[i].transform.GetChild(0);
                 slot[i].transform.DetachChildren();
                 slot[i].GetComponent<Slot>().UpdateSlot();
                 slot[i].GetComponent<Slot>().empty = true;
+                //Destroy item maybe
+                GameRules g;
+                g = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameRules>();
+                g.incItemPicked();
             }
         }
     }
