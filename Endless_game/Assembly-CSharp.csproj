@@ -59,17 +59,28 @@
     <Analyzer Include="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\First Person Player\PlayerMovement.cs" />
     <Compile Include="Assets\GameRules.cs" />
     <Compile Include="Assets\Slot.cs" />
+    <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Drawer\X Axis\Drawer_Pull_X.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\SpawnPoint.cs" />
     <Compile Include="Assets\CamFollowsPlayer.cs" />
+    <Compile Include="Assets\Mainmenu.cs" />
     <Compile Include="Assets\Scripts\Pickup.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Drawer\Z Axis\Drawer_Pull_Z.cs" />
+    <Compile Include="Assets\Soja Exiles\Bar &amp; Liquor Cabinets\Scripts &amp; Animation\TableFlipR.cs" />
+    <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Doors\opencloseDoor.cs" />
+    <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\First Person Player\MouseLook.cs" />
+    <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow.cs" />
     <Compile Include="Assets\Inventory.cs" />
     <Compile Include="Assets\Item.cs" />
+    <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Doors\opencloseDoor1.cs" />
+    <Compile Include="Assets\Soja Exiles\Bar &amp; Liquor Cabinets\Scripts &amp; Animation\TableFlipL.cs" />
+    <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow1.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +89,7 @@
     <None Include="Assets\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
     <None Include="Assets\POLYGON city pack\Read_me.txt" />
     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\SupercyanShaderLighting.cginc" />
+    <None Include="Assets\Soja Exiles\Bar &amp; Liquor Cabinets\Message For You Please Read Me.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -311,14 +323,23 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\Program Files\Unity 2021.1.17f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="clipper_library">
       <HintPath>Library\PackageCache\com.unity.cinemachine@2.7.5\Runtime\ThirdParty\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:\Program Files\Unity 2021.1.17f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -678,6 +699,10 @@
       <Project>{53436BAD-5D1C-C95A-A888-88FE4D560FC4}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
+      <Project>{90C02518-0148-3A29-838A-F47E7E95E294}</Project>
+      <Name>Unity.2D.Tilemap.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
       <Project>{003539E9-1C0B-C2EC-62DE-CEE66B50E89A}</Project>
       <Name>Unity.RenderPipelines.Universal.Shaders</Name>
@@ -685,6 +710,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
       <Project>{E0F247B2-2869-0165-8C17-D772D35031E0}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.multiplayer-hlapi.Editor.csproj">
+      <Project>{5CABBFD6-4151-A225-5930-38A37D033B6E}</Project>
+      <Name>com.unity.multiplayer-hlapi.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{DCE9B1FC-94E2-4C7C-167D-8743BEA8D708}</Project>
@@ -714,13 +743,17 @@
       <Project>{580F200B-5BFA-63BE-656D-0506A7861154}</Project>
       <Name>Unity.Searcher.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Advertisements.csproj">
+      <Project>{8FF31B07-4491-66E9-19B4-3B66379D7AC1}</Project>
+      <Name>UnityEngine.Advertisements</Name>
+    </ProjectReference>
     <ProjectReference Include="VSSettingsProvider.csproj">
       <Project>{7C71DFAC-3086-331F-2713-7B7E1736BEB3}</Project>
       <Name>VSSettingsProvider</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{D52C125D-2134-77EE-19E4-BBBA089C408A}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{304F1951-600D-D5D8-659C-FA438ED0F2B3}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
       <Project>{D1041C26-C2F5-C666-90D4-E4C517B027A1}</Project>
@@ -746,9 +779,29 @@
       <Project>{5ECC1F19-ACF0-8444-D940-AECBB7C37D55}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
+      <Project>{F299DA4A-2484-120A-4B03-B74DF0124A0C}</Project>
+      <Name>UnityEngine.SpatialTracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.multiplayer-weaver.Editor.csproj">
+      <Project>{437BF4EB-9889-8000-BE14-E3275723E3C7}</Project>
+      <Name>com.unity.multiplayer-weaver.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
+      <Project>{43940482-7E9A-D122-C715-EC48DC25574F}</Project>
+      <Name>Unity.Analytics.DataPrivacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{D52C125D-2134-77EE-19E4-BBBA089C408A}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{CFFA8EAD-D7B0-6AB8-8DFE-DBA5D2154195}</Project>
       <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.multiplayer-hlapi.Runtime.csproj">
+      <Project>{2734661A-578C-6F62-80E9-628C0EF1F93D}</Project>
+      <Name>com.unity.multiplayer-hlapi.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{CA6920F9-F3FB-117B-C4E5-CA80EEB032F1}</Project>
@@ -770,6 +823,10 @@
       <Project>{4A26E3F3-9131-84AE-DA60-DCA37FDF9CC8}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
+      <Project>{EBDF7647-C55E-A5BE-1153-FB99D35972B8}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
       <Project>{A50850B5-7778-DA2D-2B85-11ED9456D1D7}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
@@ -782,9 +839,21 @@
       <Project>{961875B0-09BA-4F02-DCE3-DA3951EA22C3}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
+      <Project>{F74F11EE-11A8-1814-A78A-61A9C83EB537}</Project>
+      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{3AC4E312-35A5-C006-C1F0-64F9BAB00B8E}</Project>
       <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Monetization.csproj">
+      <Project>{2A637500-8944-B27E-3F44-B6A6ABAAB041}</Project>
+      <Name>UnityEngine.Monetization</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
+      <Project>{D3AB18E4-BB62-2B1A-CA3A-D6BD368BC712}</Project>
+      <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{C5EF6A5B-0E8A-5B95-0C07-E9AEAE5CC40F}</Project>

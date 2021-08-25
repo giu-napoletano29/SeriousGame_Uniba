@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637653306281686198
-    m_Hash: 2181799058
+      ticks: 637655089160079000
+    m_Hash: 2165120049
   m_LockFileStatus:
     m_FilePath: F:/Progetti/SeriousGame_Uniba/Endless_game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637653306281696201
-    m_Hash: 1184479111
+      ticks: 637655089279209709
+    m_Hash: 2647747594
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,312 @@ m_LocalPackages:
 m_ProjectPath: F:/Progetti/SeriousGame_Uniba/Endless_game/Packages
 m_EditorVersion: 2021.1.17f1 (03b40fe07a36)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.2d.tilemap@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+  assetPath: Packages/com.unity.2d.tilemap
+  name: com.unity.2d.tilemap
+  displayName: 2D Tilemap Editor
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: 2D Tilemap Editor is a package that contains editor functionalities
+    for editing Tilemaps.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - Tilemap
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.ads@3.4.5
+  testable: 0
+  isDirectDependency: 1
+  version: 3.4.5
+  source: 1
+  resolvedPath: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.ads@3.4.5
+  assetPath: Packages/com.unity.ads
+  name: com.unity.ads
+  displayName: Advertisement
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Unity Ads is a video ad network for iOS and Android that allows you
+    to quickly and effectively monetize your games.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.6
+    - 0.0.7
+    - 0.0.8
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 2.0.0
+    - 2.0.3
+    - 2.0.4
+    - 2.0.7
+    - 2.0.8
+    - 2.3.1
+    - 2.3.2
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.1.1
+    - 3.2.0
+    - 3.3.0
+    - 3.3.1
+    - 3.4.0
+    - 3.4.1
+    - 3.4.2
+    - 3.4.4
+    - 3.4.5
+    - 3.4.7
+    - 3.4.9
+    - 3.5.0
+    - 3.5.2
+    - 3.6.1
+    - 3.7.0
+    - 3.7.1
+    - 3.7.3
+    - 3.7.5
+    compatible:
+    - 3.7.1
+    - 3.7.3
+    - 3.7.5
+    verified: 3.7.5
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - ads
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637238513750000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ads.git
+    revision: 731a04e78b2c641fd6a924d34e37ae0529ecc68c
+    path: 
+  unityLifecycle:
+    version: 3.7.1
+    nextVersion: 
+- packageId: com.unity.analytics@3.3.5
+  testable: 0
+  isDirectDependency: 1
+  version: 3.3.5
+  source: 1
+  resolvedPath: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.analytics@3.3.5
+  assetPath: Packages/com.unity.analytics
+  name: com.unity.analytics
+  displayName: Analytics Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Unity Analytics Library contains the Analytics Event Tracker component,
+    the Data Privacy plug-in, and the Standard Events API.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.19
+    - 2.0.5
+    - 2.0.11
+    - 2.0.13
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 3.0.5
+    - 3.0.9
+    - 3.1.1
+    - 3.2.0
+    - 3.2.2
+    - 3.2.3
+    - 3.3.0
+    - 3.3.2-preview
+    - 3.3.2
+    - 3.3.4
+    - 3.3.5
+    - 3.4.0
+    - 3.5.3
+    - 3.6.11
+    compatible:
+    - 3.5.3
+    - 3.6.11
+    verified: 3.5.3
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - analytics
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637146252790000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git@github.cds.internal.unity3d.com:unity/com.unity.analytics.git
+    revision: 98d7da077d4e205d8500771aa31648bdedd0f9e2
+    path: 
+  unityLifecycle:
+    version: 3.5.3
+    nextVersion: 
 - packageId: com.unity.cinemachine@2.7.5
   testable: 0
   isDirectDependency: 1
@@ -82,11 +388,13 @@ m_ResolvedPackages:
     - 2.6.4
     - 2.6.5
     - 2.6.9
+    - 2.6.10
     - 2.7.1
     - 2.7.2
     - 2.7.3
     - 2.7.4
     - 2.7.5
+    - 2.7.8
     - 2.8.0-exp.1
     - 2.8.0-exp.2
     - 2.8.0-pre.1
@@ -94,11 +402,12 @@ m_ResolvedPackages:
     compatible:
     - 2.7.4
     - 2.7.5
+    - 2.7.8
     - 2.8.0-exp.1
     - 2.8.0-exp.2
     - 2.8.0-pre.1
     - 2.8.0
-    verified: 2.7.5
+    verified: 2.7.8
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -479,6 +788,195 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.3
+    nextVersion: 
+- packageId: com.unity.multiplayer-hlapi@1.0.6
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.6
+  source: 1
+  resolvedPath: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.6
+  assetPath: Packages/com.unity.multiplayer-hlapi
+  name: com.unity.multiplayer-hlapi
+  displayName: Multiplayer HLAPI
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The high level API component of the Unity Multiplayer system.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.2.4-preview
+    - 0.2.5-preview
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.4
+    - 1.0.6
+    - 1.0.8
+    - 1.1.1
+    compatible:
+    - 0.2.4-preview
+    - 0.2.5-preview
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.4
+    - 1.0.6
+    - 1.0.8
+    - 1.1.1
+    verified: 
+  dependencies:
+  - name: nuget.mono-cecil
+    version: 0.1.6-preview
+  resolvedDependencies:
+  - name: nuget.mono-cecil
+    version: 0.1.6-preview
+  keywords:
+  - multiplayer
+  - networking
+  - hlapi
+  - high-level
+  - api
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637256009420000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.multiplayer-hlapi.git
+    revision: 5e5b44fbffb380444bc35bb716d4926174801f71
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.purchasing@2.0.6
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.6
+  source: 1
+  resolvedPath: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.purchasing@2.0.6
+  assetPath: Packages/com.unity.purchasing
+  name: com.unity.purchasing
+  displayName: In App Purchasing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Unity IAP supports the iOS, Mac, tvOS, Google Play, Facebook Gameroom,
+    Windows, Amazon, Samsung Galaxy, Tizen, Cloud Moolah MOO, Xiaomi Mi Game Pay
+    App Stores.
+
+
+    With Unity IAP, setting up in-app purchases for your game across
+    multiple app stores has never been easier.
+
+
+    Use one common API to access
+    all stores for free. With just a few lines of code, you can fully understand
+    and optimize your in-game economy.
+
+
+    Unity IAP automatically couples with
+    Unity Analytics enabling you to monitor and act on trends in your revenue and
+    purchase data across multiple platforms.
+
+
+    Includes client-side receipt validation
+    for Apple, Google Play, and Xiaomi Mi Game Pay.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.6
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.18
+    - 0.0.19
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 4.0.0
+    - 4.0.3
+    compatible:
+    - 3.2.2
+    - 3.2.3
+    - 4.0.0
+    - 4.0.3
+    verified: 3.2.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - purchasing
+  - iap
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 636898903830000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://gitlab.cds.internal.unity3d.com/upm-packages/purchasing/com.unity.purchasing
+    revision: 37674e38ef7548642e33bc97797a71b5eadbecac
+    path: 
+  unityLifecycle:
+    version: 3.2.2
     nextVersion: 
 - packageId: com.unity.render-pipelines.universal@11.0.0
   testable: 0
@@ -1163,6 +1661,88 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.6.1
+    nextVersion: 
+- packageId: com.unity.xr.legacyinputhelpers@2.1.4
+  testable: 0
+  isDirectDependency: 1
+  version: 2.1.4
+  source: 1
+  resolvedPath: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: 
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a monobehavior that enables GameObjects
+    to track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    compatible:
+    - 2.1.8
+    verified: 2.1.8
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637244797630000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: 658d345b94c9a7d015f00d946ef160193439a203
+    path: 
+  unityLifecycle:
+    version: 2.1.8
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -3447,6 +4027,59 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 11.0.0
+    nextVersion: 
+- packageId: nuget.mono-cecil@0.1.6-preview
+  testable: 0
+  isDirectDependency: 0
+  version: 0.1.6-preview
+  source: 1
+  resolvedPath: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\nuget.mono-cecil@0.1.6-preview
+  assetPath: Packages/nuget.mono-cecil
+  name: nuget.mono-cecil
+  displayName: Mono Cecil
+  author:
+    name: 
+    email: 
+    url: 
+  category: Libraries
+  type: 
+  description: The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    compatible:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - mono cecil
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 636898921610000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git@gitlab.cds.internal.unity3d.com/upm-packages/core/nuget.mono-cecil.git
+    revision: d9e57e10c26ba36a62a828729ad08eb73d0386b6
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@2.0.0
   testable: 0

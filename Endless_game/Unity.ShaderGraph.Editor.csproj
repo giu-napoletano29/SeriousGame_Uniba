@@ -410,18 +410,18 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Interfaces\IGeneratesBodyCode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\ViewModels\BlackboardViewModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Math\Wave\SawtoothWaveNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\FormerNameAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Graphs\Matrix3ShaderProperty.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Views\MaterialGraphView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Input\Texture\SampleVirtualTextureNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\FormerNameAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\Target.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Util\TextUtil.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Controls\TextureControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Interfaces\IMayRequireTime.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Graphs\GradientMaterialSlot.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Input\PBR\MetalReflectanceNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\Enumerations\PropertyType.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Serialization\RefDataEnumerable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Graphs\GradientMaterialSlot.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\Contexts\TargetSetupContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Interfaces\IMayRequireCameraOpaqueTexture.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Math\Vector\DotProductNode.cs" />
@@ -486,8 +486,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Inspector\PropertyDrawerUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Controls\PopupControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Views\Slots\LabelSlotControlView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Attributes\SRPFilterAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Graphs\GradientShaderProperty.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Attributes\SRPFilterAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Util\PooledList.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Views\IShaderNodeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Interfaces\ISGControlledElement.cs" />
@@ -520,10 +520,10 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Views\PortInputView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Views\Slots\CubemapSlotControlView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Graphs\ColorMaterialSlot.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Input\Matrix\Matrix3Node.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Inspector\PropertyDrawers\MatrixPropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Graphs\CubemapInputMaterialSlot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Input\Matrix\Matrix3Node.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Input\PBR\DielectricSpecularNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Graphs\CubemapInputMaterialSlot.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Views\Slots\ScreenPositionSlotControlView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Interfaces\IInspectable.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\Targets\PreviewTarget.cs" />
@@ -958,26 +958,41 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:\Program Files\Unity 2021.1.17f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\PackageCache\com.unity.purchasing@2.0.6\Editor\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="clipper_library">
       <HintPath>Library\PackageCache\com.unity.cinemachine@2.7.5\Runtime\ThirdParty\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
