@@ -62,6 +62,7 @@
     <Compile Include="Assets\GameRules.cs" />
     <Compile Include="Assets\Slot.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\SpawnPoint.cs" />
     <Compile Include="Assets\CamFollowsPlayer.cs" />
     <Compile Include="Assets\Scripts\Pickup.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
@@ -70,7 +71,6 @@
     <Compile Include="Assets\Inventory.cs" />
     <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
-    <Compile Include="Assets\SpawnPoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\Legacy\CelShader.shader" />
