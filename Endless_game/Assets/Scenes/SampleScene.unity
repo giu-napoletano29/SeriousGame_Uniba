@@ -1765,10 +1765,10 @@ RectTransform:
   m_Father: {fileID: 1185442410}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -164, y: 41}
+  m_SizeDelta: {x: 328, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &89310502
 MonoBehaviour:
@@ -1783,7 +1783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.24705882}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2382,6 +2382,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8748688856612009363, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748688856612009363, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 3}
       propertyPath: m_moveSpeed
       value: 7
       objectReference: {fileID: 0}
@@ -2604,7 +2608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2870,7 +2874,7 @@ MonoBehaviour:
   ID: 9
   type: Bin_paper
   desc: Libro 1
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 08a24f55d5d257349be0ace2de4be174, type: 3}
   PickedUp: 0
 --- !u!54 &181230535
 Rigidbody:
@@ -3418,12 +3422,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1442462280}
+  m_Father: {fileID: 2080973208}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 131.82, y: 544}
+  m_AnchoredPosition: {x: 130.82, y: 426}
   m_SizeDelta: {x: 63.646, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &209752559
@@ -4387,7 +4391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4670,7 +4674,7 @@ MonoBehaviour:
   ID: 2
   type: Bin_plastic
   desc: Una macchina giocattolo
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 35bb7ce10521adb488b49cd9af389d07, type: 3}
   PickedUp: 0
 --- !u!54 &285307029
 Rigidbody:
@@ -5932,7 +5936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f99df1970d4b71441a320ce6acc52709, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.9185004
+      value: 3.248
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f99df1970d4b71441a320ce6acc52709, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5989,7 +5993,7 @@ MonoBehaviour:
   ID: 4
   type: Bin_glass
   desc: Bicchiere
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 5121dee3ee76d8249b2dcc4683805ca8, type: 3}
   PickedUp: 0
 --- !u!54 &403292219
 Rigidbody:
@@ -6637,12 +6641,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1442462280}
-  m_RootOrder: 1
+  m_Father: {fileID: 2080973208}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -910.23816, y: 544}
+  m_AnchoredPosition: {x: -911.23816, y: 426}
   m_SizeDelta: {x: 65.5237, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &480129464
@@ -7432,7 +7436,7 @@ MonoBehaviour:
   ID: 7
   type: Bin_glass
   desc: Bottiglia
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: f2ba8cb73640b5549b0d35023068d800, type: 3}
   PickedUp: 0
 --- !u!54 &526220478
 Rigidbody:
@@ -8632,7 +8636,7 @@ MonoBehaviour:
   ID: 5
   type: Bin_plastic
   desc: sadsd
-  icon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  icon: {fileID: 21300000, guid: fe84d809d8baaf6409c2f413f566f23f, type: 3}
   PickedUp: 0
 --- !u!54 &613438015
 Rigidbody:
@@ -9536,7 +9540,7 @@ MonoBehaviour:
   ID: 12
   type: Bin_paper
   desc: Libro 4
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 44e84b5696ab3984d95c917be40a85ff, type: 3}
   PickedUp: 0
 --- !u!54 &685023181
 Rigidbody:
@@ -11509,7 +11513,7 @@ MonoBehaviour:
   ID: 10
   type: Bin_paper
   desc: Libro 2
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: c2728c6402279d049a4ef48fb472bd2c, type: 3}
   PickedUp: 0
 --- !u!54 &811728285
 Rigidbody:
@@ -11684,7 +11688,7 @@ MonoBehaviour:
   ID: 8
   type: Bin_paper
   desc: scatola
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 666a9da4b2f29e34db7453fa712fdb54, type: 3}
   PickedUp: 0
 --- !u!65 &834954183
 BoxCollider:
@@ -13294,7 +13298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5638865034277625390, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14188373
+      value: 0.103
       objectReference: {fileID: 0}
     - target: {fileID: 5638865034277625390, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13838,7 +13842,7 @@ MonoBehaviour:
   ID: 0
   type: Bin_plastic
   desc: La lattina di una bevanda
-  icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  icon: {fileID: 21300000, guid: e0b0911d88aae2c499a0ed8fd414d984, type: 3}
   PickedUp: 0
 --- !u!65 &1017665335
 BoxCollider:
@@ -15609,7 +15613,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 89310501}
-  - {fileID: 1442462280}
+  - {fileID: 2080973208}
   m_Father: {fileID: 2076762513}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15631,7 +15635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16139,7 +16143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: d55339d5a4e0b8f41a0448068bd26f4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.21790838
+      value: 0.2689
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: d55339d5a4e0b8f41a0448068bd26f4e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16147,7 +16151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: d55339d5a4e0b8f41a0448068bd26f4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.5833001
+      value: 0.462
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: d55339d5a4e0b8f41a0448068bd26f4e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16850,7 +16854,7 @@ MonoBehaviour:
   ID: 6
   type: Bin_glass
   desc: coca cola
-  icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  icon: {fileID: 21300000, guid: 7f083a9766d60284da2772d31da3b178, type: 3}
   PickedUp: 0
 --- !u!65 &1279599259
 BoxCollider:
@@ -17041,7 +17045,7 @@ MonoBehaviour:
   ID: 1
   type: Bin_plastic
   desc: Confeznione di maionese
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: c584e320b73560d4e897ad3113e54a75, type: 3}
   PickedUp: 0
 --- !u!65 &1291652642
 BoxCollider:
@@ -17094,7 +17098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cba00f75539bc564fabb9136fccfac6c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2611942
+      value: -0.063
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cba00f75539bc564fabb9136fccfac6c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17102,7 +17106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cba00f75539bc564fabb9136fccfac6c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.0011048
+      value: 2.893
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cba00f75539bc564fabb9136fccfac6c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18696,85 +18700,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 89404c3dc4f490b48a0018f721969b83, type: 3}
   m_PrefabInstance: {fileID: 1842268788}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1442462279
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1442462280}
-  - component: {fileID: 1442462282}
-  - component: {fileID: 1442462281}
-  m_Layer: 5
-  m_Name: UI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1442462280
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442462279}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1659817682}
-  - {fileID: 480129463}
-  - {fileID: 1725711165}
-  - {fileID: 209752558}
-  m_Father: {fileID: 1185442410}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1442462281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442462279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1442462282
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442462279}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1443118784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19343,7 +19268,7 @@ MonoBehaviour:
   ID: 11
   type: Bin_paper
   desc: Libro 3
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: efb07afb63c3ffc49858dbc5b5a5852d, type: 3}
   PickedUp: 0
 --- !u!65 &1500872593
 BoxCollider:
@@ -20995,12 +20920,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1442462280}
-  m_RootOrder: 0
+  m_Father: {fileID: 2080973208}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -969, y: 544}
+  m_AnchoredPosition: {x: -970, y: 426}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1659817683
@@ -21573,7 +21498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14199924
+      value: 0.0233
       objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22061,12 +21986,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1442462280}
+  m_Father: {fileID: 2080973208}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -30, y: 544}
+  m_AnchoredPosition: {x: -31, y: 426}
   m_SizeDelta: {x: 188, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725711166
@@ -24335,7 +24260,7 @@ MonoBehaviour:
   ID: 2
   type: Bin_plastic
   desc: lattina
-  icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  icon: {fileID: 21300000, guid: e0b0911d88aae2c499a0ed8fd414d984, type: 3}
   PickedUp: 0
 --- !u!65 &1894320147
 BoxCollider:
@@ -26162,7 +26087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -26875,6 +26800,45 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6476529798019570804, guid: 0fe65fec31a96cc49a3146a03f035c48, type: 3}
   m_PrefabInstance: {fileID: 2080459522}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2080973207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080973208}
+  m_Layer: 5
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2080973208
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080973207}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 480129463}
+  - {fileID: 1659817682}
+  - {fileID: 1725711165}
+  - {fileID: 209752558}
+  m_Father: {fileID: 1185442410}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 118}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2082229967
 PrefabInstance:
   m_ObjectHideFlags: 0

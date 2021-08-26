@@ -82,6 +82,7 @@
     <Compile Include="Assets\Soja Exiles\Bar &amp; Liquor Cabinets\Scripts &amp; Animation\TableFlipL.cs" />
     <Compile Include="Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow1.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
+    <Compile Include="Assets\Movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\Legacy\CelShader.shader" />

@@ -15,11 +15,11 @@ F:/Progetti/SeriousGame_Uniba/Endless_game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62469
+59082
 Successfully changed project path to: F:/Progetti/SeriousGame_Uniba/Endless_game
 F:/Progetti/SeriousGame_Uniba/Endless_game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 123.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 182.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.17f1 (03b40fe07a36)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity 2021.1.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity 2021.1.17f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity 2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity 2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity 2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001761 seconds.
+Registered in 0.001784 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 121.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 909.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.807 seconds
+- Completed reload, in  2.611 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1807ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (2611ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (531ms)
-			LoadAssemblies (103ms)
+		EndReloadAssembly (1320ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
+			SetupTypeCache (175ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (268ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (1057ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (104ms)
+				RefreshPlugins (909ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (105ms)
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,141 +73,55 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016975 seconds.
+Registered in 0.031376 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 128.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 155.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:D:\Program Files\Unity 2021.1.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.620 seconds
+- Completed reload, in  1.736 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1621ms)
-		BeginReloadAssembly (206ms)
+	ReloadAssembly (1736ms)
+		BeginReloadAssembly (212ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1349ms)
-			LoadAssemblies (166ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1451ms)
+			LoadAssemblies (186ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (418ms)
+			SetupTypeCache (429ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (624ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (684ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (128ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (356ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4442 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.4 MB.
-System memory in use after: 189.6 MB.
+Unloading 4839 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.2 MB.
+System memory in use after: 201.4 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4916.
-Total: 5.456500 ms (FindLiveObjects: 0.495200 ms CreateObjectMapping: 0.459000 ms MarkObjects: 4.389300 ms  DeleteObjects: 0.112100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(faf1f464f64c37443b532003de27e25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(faf1f464f64c37443b532003de27e25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2173f8d75fa45b6c19110e3e56b8354d') in 0.022482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 216.114004 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22147fb29b9a5efcf1e11c2eb331e66') in 0.009203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 122.915301 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(faf1f464f64c37443b532003de27e25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(faf1f464f64c37443b532003de27e25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7a6977bc1fb4bb572954f622d3d81a') in 0.004951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 74.115365 seconds.
-  path: Assets/Materials/background.png
-  artifactKey: Guid(6bb6f82ba80f6694cb999bf19ad54d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/background.png using Guid(6bb6f82ba80f6694cb999bf19ad54d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1676462e9ca9fe9ce96d68e918407b18') in 0.102949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.954413 seconds.
-  path: Assets/Materials/background.png
-  artifactKey: Guid(6bb6f82ba80f6694cb999bf19ad54d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/background.png using Guid(6bb6f82ba80f6694cb999bf19ad54d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2f5c826c20645b87c16cd976489473') in 0.071816 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017340 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.645 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1646ms)
-		BeginReloadAssembly (186ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1390ms)
-			LoadAssemblies (182ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (495ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (519ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (398ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4329 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.0 MB.
-System memory in use after: 189.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4956.
-Total: 4.670100 ms (FindLiveObjects: 0.522300 ms CreateObjectMapping: 0.205100 ms MarkObjects: 3.915300 ms  DeleteObjects: 0.025000 ms)
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 5294.
+Total: 4.926600 ms (FindLiveObjects: 0.493400 ms CreateObjectMapping: 0.464700 ms MarkObjects: 3.844500 ms  DeleteObjects: 0.123000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -222,122 +136,1797 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 787.609756 seconds.
-  path: Assets/Mainmenu.cs
-  artifactKey: Guid(d40e8f572312e1a40bed40a4e7c2dd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mainmenu.cs using Guid(d40e8f572312e1a40bed40a4e7c2dd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e587431f7aa7bc0b69b9ac7eab987de') in 0.017903 seconds 
+  path: Assets/Books/Prefabs/book_0001c.prefab
+  artifactKey: Guid(888ce82c0af2ab0499d39c93fb0f4ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/book_0001c.prefab using Guid(888ce82c0af2ab0499d39c93fb0f4ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a7eae1a9453f513d85c2ec289884dc') in 0.244502 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 85.890573 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b22254e40d831e044eac95ff305e53') in 0.029016 seconds 
+  Time since last request: 0.000312 seconds.
+  path: Assets/Books/Prefabs/book_0001a.prefab
+  artifactKey: Guid(cba00f75539bc564fabb9136fccfac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/book_0001a.prefab using Guid(cba00f75539bc564fabb9136fccfac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e162904a7edcecb2a54d1a424d311673') in 0.024970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Books/Textures/books.bmp
+  artifactKey: Guid(f2f1bd0c786ec5743b8bcc0a2402b6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/books.bmp using Guid(f2f1bd0c786ec5743b8bcc0a2402b6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590a48caf3ad970c9758d374b7b99244') in 0.036135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Books/Prefabs/book_0001b.prefab
+  artifactKey: Guid(f9ec2f5b43ac0204199acdb66395048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/book_0001b.prefab using Guid(f9ec2f5b43ac0204199acdb66395048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25490f42d733561cf2ab671cc419e33a') in 0.019097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Books/3dobjects_FBX/books.fbx
+  artifactKey: Guid(08e091500e68ded43b4abfb1b3f718d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/3dobjects_FBX/books.fbx using Guid(08e091500e68ded43b4abfb1b3f718d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa9aa195f22e5480c1c3fa0b02dfde7') in 0.092838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Books/Prefabs/book_0001d.prefab
+  artifactKey: Guid(f99df1970d4b71441a320ce6acc52709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/book_0001d.prefab using Guid(f99df1970d4b71441a320ce6acc52709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9526dad095e83f9fb42ffc660e9d95b9') in 0.017695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.172255 seconds.
+  path: Assets/CrowArt - PBR Cardboard Box/Prefabs/CarboardBox_1(Physics).prefab
+  artifactKey: Guid(acbdb13218a23b644b2a15c0a6fbd3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowArt - PBR Cardboard Box/Prefabs/CarboardBox_1(Physics).prefab using Guid(acbdb13218a23b644b2a15c0a6fbd3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaacf5ad0769a10cf45a164e9c108ed') in 0.096446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/CrowArt - PBR Cardboard Box/Prefabs/CarboardBox_1.prefab
+  artifactKey: Guid(c350023b68bece943928351ad0df5c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowArt - PBR Cardboard Box/Prefabs/CarboardBox_1.prefab using Guid(c350023b68bece943928351ad0df5c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8a1d38097e7f214c1bf834a1e9aeec') in 0.783819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.364068 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/lamp.prefab
+  artifactKey: Guid(b762b04c7fe35704cbdbf1806a638bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/lamp.prefab using Guid(b762b04c7fe35704cbdbf1806a638bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0303ef434dc2c28882eff35a0e6d8f25') in 0.021473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Vase 1.prefab
+  artifactKey: Guid(eeba5b089ee3b4a4cbe7167afae0e4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Vase 1.prefab using Guid(eeba5b089ee3b4a4cbe7167afae0e4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56ae2952f2897ba73f3939f250ac44f') in 0.026768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Vase.prefab
+  artifactKey: Guid(d1af930dddc14144d9209f1378f9a311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Vase.prefab using Guid(d1af930dddc14144d9209f1378f9a311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814fa53d3b687dfa1df3e37785ca887a') in 0.748409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Painting.prefab
+  artifactKey: Guid(4f9e8d17d08a3d346909d5dc0f404d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Painting.prefab using Guid(4f9e8d17d08a3d346909d5dc0f404d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f245a980d1ab8f99a31a48b5aad70fb7') in 0.023402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.698984 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample
+  artifactKey: Guid(bfea097eda748e445af72b19baa5540e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample using Guid(bfea097eda748e445af72b19baa5540e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb26154816d72505d6654ae3c590403') in 0.281259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample/wine thin glass.prefab
+  artifactKey: Guid(14973bbaa08d142449d2405142caff8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample/wine thin glass.prefab using Guid(14973bbaa08d142449d2405142caff8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6920a35a74bd9cc76f70961681dd863a') in 0.039229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample/wine thin glass Red Wine.prefab
+  artifactKey: Guid(e32f2e76bad645746b596640d4736354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample/wine thin glass Red Wine.prefab using Guid(e32f2e76bad645746b596640d4736354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fba83f5c26dcba3b93dfafcaa83a5ee') in 0.020582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample/wine bottle 04_Low Poly.prefab
+  artifactKey: Guid(e0f8fa703bcf04a419f5263f5020b059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample/wine bottle 04_Low Poly.prefab using Guid(e0f8fa703bcf04a419f5263f5020b059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b17679f9b2500ec13f986600d1b6c55') in 0.051809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample/wine bottle 04 - No Label - High Poly.prefab
+  artifactKey: Guid(c22c18d3a6d564e4ca5a4185a1f26b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample/wine bottle 04 - No Label - High Poly.prefab using Guid(c22c18d3a6d564e4ca5a4185a1f26b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1471cd2fca9710abb9cf020ef7410ec6') in 0.022294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample/wine thin glass White Wine.prefab
+  artifactKey: Guid(1b428e366487244448eec04f14964eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Wine Liquor Beer and Glassware - Sample/wine thin glass White Wine.prefab using Guid(1b428e366487244448eec04f14964eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca185d098bbb6b1826065caa099de17') in 0.016215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.874442 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Antique.mat
+  artifactKey: Guid(7a2c0b18d3d81384a9318118e5c1c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Antique.mat using Guid(7a2c0b18d3d81384a9318118e5c1c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfde21882df6c5f4cab5fda6f3796fc') in 0.072208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Glass Wine Bottle 05.mat
+  artifactKey: Guid(faedf01a9e7977749a7798016f508081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Glass Wine Bottle 05.mat using Guid(faedf01a9e7977749a7798016f508081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe5a4a39c46b7a107375d80620d0bd3') in 0.016117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/White Wine.mat
+  artifactKey: Guid(aceec14a00995924b88aec0853110efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/White Wine.mat using Guid(aceec14a00995924b88aec0853110efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd821d1e58c5296826fab4a9e0bd4db') in 0.014538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Painting.mat
+  artifactKey: Guid(450760a940231c348ab7f9bfdc460276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Painting.mat using Guid(450760a940231c348ab7f9bfdc460276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9edc6393b53fa2514ed628accdf49ae') in 0.016373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Shade.mat
+  artifactKey: Guid(b88360a072428ab458700f373aaa91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Shade.mat using Guid(b88360a072428ab458700f373aaa91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9728062a9e1740886999d4536c137f43') in 0.015968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Glass Wine Bottle Wrapper 02.mat
+  artifactKey: Guid(5d5f7ba22899a774081673e045e96cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Glass Wine Bottle Wrapper 02.mat using Guid(5d5f7ba22899a774081673e045e96cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f986657a44a74b5100ed80af7ae7cfb3') in 0.013673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Red Wine.mat
+  artifactKey: Guid(4395ee91f3c8a8245ac3acea11839b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Red Wine.mat using Guid(4395ee91f3c8a8245ac3acea11839b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32cd49c314b5aafa3c20a3f17bbb55b') in 0.016152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Label.mat
+  artifactKey: Guid(887cd0bd2b51873418b96f1bf6f04da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Label.mat using Guid(887cd0bd2b51873418b96f1bf6f04da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7e19b1c66edbdadf5e8fe15755c271') in 0.019008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Rustic Wood.mat
+  artifactKey: Guid(a5fe6931b64e0de469d6a1b5b2a23513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Rustic Wood.mat using Guid(a5fe6931b64e0de469d6a1b5b2a23513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72619677afd0b23a761c9f680aaa305a') in 0.018636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Shiny.mat
+  artifactKey: Guid(bbc4e18e895e99a468291c41300b3f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Materials/Shiny.mat using Guid(bbc4e18e895e99a468291c41300b3f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52517a6a5c66ba8b6626de25a7b2dd07') in 0.014843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.027675 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Center Cabinet - Dark.prefab
+  artifactKey: Guid(8915be8858dae144eb1415e1fada3eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Center Cabinet - Dark.prefab using Guid(8915be8858dae144eb1415e1fada3eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dd31d04ec422ff77b9b6ecfac57db5') in 0.026841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Modular Wall Cabinet - Dark.prefab
+  artifactKey: Guid(f0f8347ddc1d5ed4bb8d2379f9008300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Modular Wall Cabinet - Dark.prefab using Guid(f0f8347ddc1d5ed4bb8d2379f9008300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150914371c42fe682eda1d75fe4100d5') in 0.038619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Side Cab - Dark.prefab
+  artifactKey: Guid(929be27b7388507448e23941feba1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Side Cab - Dark.prefab using Guid(929be27b7388507448e23941feba1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a956550352b8fdedb962dfb2cbfb158') in 0.027963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Modern Liquor Cabinet - Dark.prefab
+  artifactKey: Guid(aa765da573f752d409b64961b914353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Modern Liquor Cabinet - Dark.prefab using Guid(aa765da573f752d409b64961b914353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819980973d9508a1754f113859485c73') in 0.034184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Corner Wall Cabinet - Dark Filled.prefab
+  artifactKey: Guid(9bad210714a462a419ba13ab6b090ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Corner Wall Cabinet - Dark Filled.prefab using Guid(9bad210714a462a419ba13ab6b090ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14c6259512edabf4433e7b33297cff3') in 0.033699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Modular Wall Cabinet Double - Dark - Filled.prefab
+  artifactKey: Guid(d17c15e72c29a9f49879ff3b971bd44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Modular Wall Cabinet Double - Dark - Filled.prefab using Guid(d17c15e72c29a9f49879ff3b971bd44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ad9086585d0f9f071b6b795fa77be2') in 0.044192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Full Center- Dark.prefab
+  artifactKey: Guid(4c9bf42b955bc1a4b83f6740aea218cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Full Center- Dark.prefab using Guid(4c9bf42b955bc1a4b83f6740aea218cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa90d189b4ac589abd785c8b6b876e93') in 0.032337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Side & Center- Dark.prefab
+  artifactKey: Guid(5c2fd724f45aa0740b81f04d56d62646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Side & Center- Dark.prefab using Guid(5c2fd724f45aa0740b81f04d56d62646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791323515975856ebda7049f6bd71b9f') in 0.031326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Modular Wall Cabinet Double - Dark.prefab
+  artifactKey: Guid(86ae21e881865b04f8548c4edade5fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Modular Wall Cabinet Double - Dark.prefab using Guid(86ae21e881865b04f8548c4edade5fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c4cae962056172305cf4d18006fda2') in 0.033247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Corner Wall Cabinet - Dark.prefab
+  artifactKey: Guid(43750bd1aeb3e804cb6700826420400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Corner Wall Cabinet - Dark.prefab using Guid(43750bd1aeb3e804cb6700826420400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e807ccaa5eb39231996c4da3937f9c1a') in 0.033392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Tower Cabinet - Dark.prefab
+  artifactKey: Guid(6b094143198273d43b21bd5b1dd0b3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Tower Cabinet - Dark.prefab using Guid(6b094143198273d43b21bd5b1dd0b3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6580bd9fb3993f4419ace9c42fa580fa') in 0.017903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Side Tower - Dark.prefab
+  artifactKey: Guid(50f7395fbbcbfff47b55a68bd9ca5773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Dark/Side Tower - Dark.prefab using Guid(50f7395fbbcbfff47b55a68bd9ca5773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abddd802a12d1f605d4e3d0fb651b7f') in 0.021812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.004652 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Center Cabinet - Rustic.prefab
+  artifactKey: Guid(3e58463d96b72bc48993718cb76e6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Center Cabinet - Rustic.prefab using Guid(3e58463d96b72bc48993718cb76e6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97912b6958022fb8e28b2cfc76b72448') in 0.025326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Tower Cabinet - Rustic.prefab
+  artifactKey: Guid(8f78b7d17c685724685bd37b43f02835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Tower Cabinet - Rustic.prefab using Guid(8f78b7d17c685724685bd37b43f02835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae15246730efa937bc7241849b51bf2d') in 0.024762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011599 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Corner Wall Cabinet - Rustic Filled.prefab
+  artifactKey: Guid(3d51d280e33c5fe4c97ae593c2292997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Corner Wall Cabinet - Rustic Filled.prefab using Guid(3d51d280e33c5fe4c97ae593c2292997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a73b2badf5274d729c519f110c7902') in 0.037147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Side & Center- Rustic.prefab
+  artifactKey: Guid(9cb987a8b18f72d4a8b5898ae413fe52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Side & Center- Rustic.prefab using Guid(9cb987a8b18f72d4a8b5898ae413fe52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62521ca34359f1aeda1a0b0d3aaab7a') in 0.028165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Side Cab - Rustic.prefab
+  artifactKey: Guid(3fe9770c96219f94ea2a8e043453a926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Side Cab - Rustic.prefab using Guid(3fe9770c96219f94ea2a8e043453a926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a2e175c529735833a01c3822feed95') in 0.029677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Modular Wall Cabinet Double - Rustic.prefab
+  artifactKey: Guid(178d47d1f3f238a4086c61a4f771c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Modular Wall Cabinet Double - Rustic.prefab using Guid(178d47d1f3f238a4086c61a4f771c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f083cfd557407bb464e95d73221c95') in 0.027474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Side Tower - Rustic.prefab
+  artifactKey: Guid(ce018ee3ffe9f0145959c140e1c1d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Side Tower - Rustic.prefab using Guid(ce018ee3ffe9f0145959c140e1c1d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb99a59136156654a72e56d971af4cfa') in 0.024250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Modern Liquor Cabinet - Rustic.prefab
+  artifactKey: Guid(5a83ec8ff7e01c24182cebfccd7d4b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Modern Liquor Cabinet - Rustic.prefab using Guid(5a83ec8ff7e01c24182cebfccd7d4b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0269c83b4dc62760227d9f28266eb3d8') in 0.035473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Full Center- Rustic.prefab
+  artifactKey: Guid(1ea6c7046c67978478210496a746bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Full Center- Rustic.prefab using Guid(1ea6c7046c67978478210496a746bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727c3e0dbc915eaa108246213163f086') in 0.027539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Modular Wall Cabinet Double - Rustic - Filled.prefab
+  artifactKey: Guid(a7be8ddabefaee442a7e3933e427105e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Modular Wall Cabinet Double - Rustic - Filled.prefab using Guid(a7be8ddabefaee442a7e3933e427105e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777a9fa249c7231b9d07e49003871d5b') in 0.042101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Modular Wall Cabinet - Rustic.prefab
+  artifactKey: Guid(57ef2e81b9ed564458290256c2248fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Modular Wall Cabinet - Rustic.prefab using Guid(57ef2e81b9ed564458290256c2248fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1673eb8043c823adcd7ce71ea7a6a22') in 0.028553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Corner Wall Cabinet - Rustic.prefab
+  artifactKey: Guid(f193bec3a0b87ca45a9dc2e7af25e968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic/Corner Wall Cabinet - Rustic.prefab using Guid(f193bec3a0b87ca45a9dc2e7af25e968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983a5fc9a61a081524c06d139fd10f50') in 0.028187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.855010 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Antique.mat
+  artifactKey: Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Antique.mat using Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e22731dc7aea256c6190570b5c1226c') in 0.052256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Brick 02.mat
+  artifactKey: Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Brick 02.mat using Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd12b1a04ab9190971f033facf1cb1e') in 0.939835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Glow.mat
+  artifactKey: Guid(823f8d5383d173a4fb4153a73427684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Glow.mat using Guid(823f8d5383d173a4fb4153a73427684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430c769b0b4e3b9a981ae2490854d15d') in 0.017023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Brushed Chrome.mat
+  artifactKey: Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Brushed Chrome.mat using Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dd7ea3c0cda5f2562757f291ec816f') in 0.014086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Texture-Map SE.mat
+  artifactKey: Guid(5f01895f1ecb58445b3aa62be24d6bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Texture-Map SE.mat using Guid(5f01895f1ecb58445b3aa62be24d6bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609f0fffa0561aaeeab90c5c5b6a848a') in 0.019217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Brick mute 02.mat
+  artifactKey: Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Brick mute 02.mat using Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afe3d4b07dcaa70e5358830badc6440') in 0.018387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/wood 02.mat
+  artifactKey: Guid(26f1b36be16f30d409f9ab1a7d20a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/wood 02.mat using Guid(26f1b36be16f30d409f9ab1a7d20a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e636ec0a4a7dd4adaf6c331dd59c212f') in 0.019799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Glass.mat
+  artifactKey: Guid(88b88f875cf0af442996954ba27bdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Glass.mat using Guid(88b88f875cf0af442996954ba27bdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e797e0839b73785e3b4669c45072e04') in 0.015186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Wood Floor 01.mat
+  artifactKey: Guid(049ac0e838cb3a342887cf48a2b06db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Wood Floor 01.mat using Guid(049ac0e838cb3a342887cf48a2b06db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28613c11fd232d947117e057d85de142') in 0.016572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Marble 01.mat
+  artifactKey: Guid(cb77271ecd71cbd4599aa533ebf5cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Marble 01.mat using Guid(cb77271ecd71cbd4599aa533ebf5cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c80c17e097dac7a9b0f77e13773186b') in 0.027358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Building Floor Tile.mat
+  artifactKey: Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Building Floor Tile.mat using Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fccb645618eb8bd9dcf39b87e5d298') in 0.029008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Light Wall 01.mat
+  artifactKey: Guid(70139dc62be58be4a91d1831e1f21e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Light Wall 01.mat using Guid(70139dc62be58be4a91d1831e1f21e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd816b7fde323b4340e9b7b39d83b8f') in 0.014770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Plastic Thick.mat
+  artifactKey: Guid(65d72af2f614466478d9d8d8d7593b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Plastic Thick.mat using Guid(65d72af2f614466478d9d8d8d7593b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa56f35ec9d066b937864d01d5205eb4') in 0.013968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/glass 03.mat
+  artifactKey: Guid(266fb6016862b8b4ba1eec482c572c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/glass 03.mat using Guid(266fb6016862b8b4ba1eec482c572c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3c4b9bf570c1c5f214559aaa3dae8d') in 0.054544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Texture-map-SE.mat
+  artifactKey: Guid(9fdfa6a0558621048a6fd66286dceca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Texture-map-SE.mat using Guid(9fdfa6a0558621048a6fd66286dceca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237c586b9602c092b6061fd14188fec4') in 0.019997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Concrete.mat
+  artifactKey: Guid(1e98ebe0ed4d9894d9610d836de5f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Concrete.mat using Guid(1e98ebe0ed4d9894d9610d836de5f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87bf74af11c7a64f48c67d1c9b68b48') in 0.022869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Gold.mat
+  artifactKey: Guid(e767d86cbf3099a478162f1692b1edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Gold.mat using Guid(e767d86cbf3099a478162f1692b1edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc35fd3ae83a095542e1aab987798bd') in 0.015615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.692270 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Textures/wood 01.png
+  artifactKey: Guid(48aec0e661dd8b34da0b78a05a1b25c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Textures/wood 01.png using Guid(48aec0e661dd8b34da0b78a05a1b25c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9e3f3d61765b0a0ac7e015840e0cd7') in 0.018837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.351454 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Prefabs/Base Room Scene.prefab
+  artifactKey: Guid(42ded4a9b41e76d46bb90a3e35072cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Prefabs/Base Room Scene.prefab using Guid(42ded4a9b41e76d46bb90a3e35072cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b8dfc2854533d793b0a49d7c65d0e0') in 0.018998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Prefabs/Base Scene.prefab
+  artifactKey: Guid(6b5e9772e973b514993c495d4471494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Prefabs/Base Scene.prefab using Guid(6b5e9772e973b514993c495d4471494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19109c963663df34b07fe7d4cfb070fe') in 0.030108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004998 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Prefabs/Buliding FloorPlane.prefab
+  artifactKey: Guid(fc813e1d3f19bfc449ee6e7a5d8e579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Prefabs/Buliding FloorPlane.prefab using Guid(fc813e1d3f19bfc449ee6e7a5d8e579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c551eda0f1f5e5e1ce6f9f2e8f9e3cfa') in 0.027653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Prefabs/Concrete Plane.prefab
+  artifactKey: Guid(0a39e6bc93e859145a2f868ff0277c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Prefabs/Concrete Plane.prefab using Guid(0a39e6bc93e859145a2f868ff0277c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58670cb001b581525ac7738da486ec51') in 0.028125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Prefabs/First Person Player.prefab
+  artifactKey: Guid(a9b081014bad86f4a80b60284279d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Prefabs/First Person Player.prefab using Guid(a9b081014bad86f4a80b60284279d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e5e47f1094166c650d2b98b46c729f') in 0.033692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Prefabs/Tabel.prefab
+  artifactKey: Guid(02d1152fb6869da41a6849d5dd239667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Prefabs/Tabel.prefab using Guid(02d1152fb6869da41a6849d5dd239667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6219a306d3d6721db5f9a8b1748b281c') in 0.010458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Prefabs/Tiled Floor.prefab
+  artifactKey: Guid(51d3051b1d589214e960ae74c8933521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Prefabs/Tiled Floor.prefab using Guid(51d3051b1d589214e960ae74c8933521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8748486bfcdd7cdb7edb60400ea129c') in 0.018193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Prefabs/office chair.prefab
+  artifactKey: Guid(99a0f1488ea2c1d47b7e9f7190961e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Prefabs/office chair.prefab using Guid(99a0f1488ea2c1d47b7e9f7190961e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88999d88fcb26e0be9463ee5b5ba78a') in 0.018414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Prefabs/Large Floor.prefab
+  artifactKey: Guid(ee987da6efab07d49bc9fc59e287f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Prefabs/Large Floor.prefab using Guid(ee987da6efab07d49bc9fc59e287f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe055b5de3a920bf559464b34535b435') in 0.025264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Prefabs/Table.prefab
+  artifactKey: Guid(bff462ab94f2a8c409aaf77789b2b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Prefabs/Table.prefab using Guid(bff462ab94f2a8c409aaf77789b2b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b06f4b085ac934030d286d1128d35a') in 0.009475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 253.122224 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/Black.mat
+  artifactKey: Guid(4cd790ac0d37bdc46970f6688c6b5070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/Black.mat using Guid(4cd790ac0d37bdc46970f6688c6b5070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4974e6784bea8276d60c008a6a25ae1') in 0.021652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/glass 02.mat
+  artifactKey: Guid(3bded00981e95504a8e47f996835ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/glass 02.mat using Guid(3bded00981e95504a8e47f996835ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc665f351c1623df1c18b2a39d036b06') in 0.031985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Soja Exiles/SE Basic Assets/Materials/wood 03.mat
+  artifactKey: Guid(a64c40f22fb83f041b7c584055b61c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/SE Basic Assets/Materials/wood 03.mat using Guid(a64c40f22fb83f041b7c584055b61c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422fb8c2f696e98846d8573197fa56aa') in 0.020267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.705771 seconds.
+  path: Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic
+  artifactKey: Guid(a7806acc43dc65b4cb07b3ebdce3473f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soja Exiles/Bar & Liquor Cabinets/Prefabs/Rustic using Guid(a7806acc43dc65b4cb07b3ebdce3473f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322c20d408ee8513b3338b612dd40da0') in 0.008101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.743755 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Base Mesh/Trashbin.fbx
+  artifactKey: Guid(b08ef7d6178f62742af62250667c0dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Base Mesh/Trashbin.fbx using Guid(b08ef7d6178f62742af62250667c0dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36129ca022ab22b388c66be47e29fe2c') in 0.049387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.862383 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinBlue.prefab
+  artifactKey: Guid(3773d0ae256dc594ea12defa93a67c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinBlue.prefab using Guid(3773d0ae256dc594ea12defa93a67c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfde6a06e3ec495512eb7fb786b245d0') in 0.064865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinGreen.prefab
+  artifactKey: Guid(1a570f403ac9fbc439ef2f8f8fbaed19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinGreen.prefab using Guid(1a570f403ac9fbc439ef2f8f8fbaed19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed052709c07294ca9794b18f3b4057f2') in 0.030333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinRed.prefab
+  artifactKey: Guid(0f7b3117c02f5a34591d7757a1876e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinRed.prefab using Guid(0f7b3117c02f5a34591d7757a1876e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1e76c0f72ebf29b9e089212ea560cc') in 0.030231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinYellow.prefab
+  artifactKey: Guid(8d1264d958f92714c81f3d43e933b4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinYellow.prefab using Guid(8d1264d958f92714c81f3d43e933b4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0887c3a1410eedb6ed94ed7c58d612a') in 0.034940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.037143 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/Trashbin_metallic.png
+  artifactKey: Guid(9e510be1103f61947be1cccea6de43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/Trashbin_metallic.png using Guid(9e510be1103f61947be1cccea6de43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31b4dee3d06cbd56cd1c1f1bb8660c0') in 0.015603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/Trashbin_roughness.png
+  artifactKey: Guid(f079d70f7176c604fb7605b87460fbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/Trashbin_roughness.png using Guid(f079d70f7176c604fb7605b87460fbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8e7ea9645f949c41008529b56885f0') in 0.017706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinYellow_basecolor.png
+  artifactKey: Guid(ea9432cfdbe1cde46bc70f71f8927e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinYellow_basecolor.png using Guid(ea9432cfdbe1cde46bc70f71f8927e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da65280800075b12f99be7c7229f82c4') in 0.019812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinRed_basecolor.png
+  artifactKey: Guid(e81b3bdbad2fb4a47b66056b7bd1762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinRed_basecolor.png using Guid(e81b3bdbad2fb4a47b66056b7bd1762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27bffa21d8197a8245027f9ec41775c') in 0.020001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinYellow.mat
+  artifactKey: Guid(258aec9daa4237b488bf9fba30cfb921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinYellow.mat using Guid(258aec9daa4237b488bf9fba30cfb921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dd83ad05b602ba285a35ac2abb4872') in 0.020456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinBlue.mat
+  artifactKey: Guid(f757761b25d2e134c8fc70ba2a38c992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinBlue.mat using Guid(f757761b25d2e134c8fc70ba2a38c992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521aa53a4e866ff32dff01c775303993') in 0.020514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinBlue_basecolor.png
+  artifactKey: Guid(9f957342930f56b468e1ddea685503f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinBlue_basecolor.png using Guid(9f957342930f56b468e1ddea685503f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d67f84a243ad4d611a9dcbcb0aea2a') in 0.016045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinRed.mat
+  artifactKey: Guid(6f11b520e3ce8f34e88fec3d55835973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinRed.mat using Guid(6f11b520e3ce8f34e88fec3d55835973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130870da76db481f1dc5d95f2a4de8bf') in 0.024406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinGreen_basecolor.png
+  artifactKey: Guid(df4a3bc55cf51b24d952302d85a85e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinGreen_basecolor.png using Guid(df4a3bc55cf51b24d952302d85a85e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8662fabdf98a2ced87703062802cac') in 0.021517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/Trashbin_normal.png
+  artifactKey: Guid(b30d7f199a9fff64a89c38806194cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/Trashbin_normal.png using Guid(b30d7f199a9fff64a89c38806194cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2845692ee50f2112f8ae56d01a4ff7ba') in 0.030369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinGreen.mat
+  artifactKey: Guid(9b519de37e5024c42a6d0e9986b50201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinGreen.mat using Guid(9b519de37e5024c42a6d0e9986b50201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ba91d8bdb5845b478c4d5c6e9bbc9d') in 0.024816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.362303 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/BlackInkWell.fbx
+  artifactKey: Guid(507ee85ae651bf0499d49678db7256c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/BlackInkWell.fbx using Guid(507ee85ae651bf0499d49678db7256c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e58fbae2f1d93cbefabe0ba41722876') in 0.793422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Jar1.fbx
+  artifactKey: Guid(88ebef21e24e2f241b0788742ae8e5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Jar1.fbx using Guid(88ebef21e24e2f241b0788742ae8e5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c48c623ed0d02bacd1b7d3791daf683') in 0.063640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand11.fbx
+  artifactKey: Guid(53396fa0544b06b478aa5417189a07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand11.fbx using Guid(53396fa0544b06b478aa5417189a07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346259d3d7c7ecf74ebfc19412e31062') in 0.043561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Quill2.fbx
+  artifactKey: Guid(e2498fd0c9cb2dc4f9fee0b10a7bdb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Quill2.fbx using Guid(e2498fd0c9cb2dc4f9fee0b10a7bdb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7368429e10fb15a9d96723b78f2d7119') in 0.036351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand10.fbx
+  artifactKey: Guid(9d5f5831e41033040b041302b3cbc8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand10.fbx using Guid(9d5f5831e41033040b041302b3cbc8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752db6cc2a993bb8df30f8452dac588a') in 0.045095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/BrassInkWell.fbx
+  artifactKey: Guid(429bfd0fbd9ce974b9505aae88cdce42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/BrassInkWell.fbx using Guid(429bfd0fbd9ce974b9505aae88cdce42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d58f59797a6c6d58bb8dddc643d89db') in 0.053774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand3.fbx
+  artifactKey: Guid(49137691be4f87b47bc69b97d412af6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand3.fbx using Guid(49137691be4f87b47bc69b97d412af6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acfe841d77414a6e5d8854ed8e65206') in 0.038106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Quill3.fbx
+  artifactKey: Guid(eb9ccd9721da4154fbacacd35e3250ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Quill3.fbx using Guid(eb9ccd9721da4154fbacacd35e3250ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0e756a93c0bf6cf821538c96fae0df') in 0.035800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand4.fbx
+  artifactKey: Guid(22814f723ced5c24cb3e1d2842cda028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand4.fbx using Guid(22814f723ced5c24cb3e1d2842cda028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b6fa61c43652c1ae39b952bf3a77bd') in 0.049817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/OwlCage1.fbx
+  artifactKey: Guid(24f631ddc232aa649af15433f548107b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/OwlCage1.fbx using Guid(24f631ddc232aa649af15433f548107b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6308b6e6536314ff9127ca7d2fff5dd8') in 0.074953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Ladle.fbx
+  artifactKey: Guid(9713f7d2e2861a545a062953fa2a2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Ladle.fbx using Guid(9713f7d2e2861a545a062953fa2a2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ac6297cb1eeb727408272e3c2eb4d1') in 0.036062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Book.fbx
+  artifactKey: Guid(60624a2897f1f6444a00dd774025a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Book.fbx using Guid(60624a2897f1f6444a00dd774025a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bf4d660b678bf70feb95cf1643ac36') in 0.044396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Book2.fbx
+  artifactKey: Guid(f3b8ca9afe1758d418f6b04dde2e4d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Book2.fbx using Guid(f3b8ca9afe1758d418f6b04dde2e4d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac0ab9977cbf41d334a5e57037e6ee7') in 0.053636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand5.fbx
+  artifactKey: Guid(37cda6f96f445284aa6af7b9ae35f98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand5.fbx using Guid(37cda6f96f445284aa6af7b9ae35f98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6121cee3b58aa090ee53e146dd531f2a') in 0.045987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Cauldron1.fbx
+  artifactKey: Guid(125d7496f5311f244a1d565c7c41c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Cauldron1.fbx using Guid(125d7496f5311f244a1d565c7c41c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1affee69d5c5d171fdc51a6b2a0e0a3') in 0.053364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand7.fbx
+  artifactKey: Guid(2283f274709dc5e4881a94b52c243f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand7.fbx using Guid(2283f274709dc5e4881a94b52c243f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fff953bb27a4a7653f6db155074141b') in 0.049059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand 8.fbx
+  artifactKey: Guid(fffba1ea268e457418f3f314fa3ba052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand 8.fbx using Guid(fffba1ea268e457418f3f314fa3ba052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e88b09be2ba97f1cd845dc010f4809f') in 0.055958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/VialStand.fbx
+  artifactKey: Guid(bd826075095b087478c7df940de35b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/VialStand.fbx using Guid(bd826075095b087478c7df940de35b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4615a2e4f6b2640754ac9b5fe01af117') in 0.056792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand9.fbx
+  artifactKey: Guid(46fba57d85a0a6945a399799313a16dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand9.fbx using Guid(46fba57d85a0a6945a399799313a16dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20dca2f6591878721c0f4c9c094527f') in 0.039351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/ClearInkWell.fbx
+  artifactKey: Guid(1ab8d080ba4017e4e9cfa6f04afc6a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/ClearInkWell.fbx using Guid(1ab8d080ba4017e4e9cfa6f04afc6a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058bc3b37ad2c92a4ce69e35483649a4') in 0.047086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Cup.fbx
+  artifactKey: Guid(8889b23a85122a2409030c358832ff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Cup.fbx using Guid(8889b23a85122a2409030c358832ff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c967192070314bf012c8676f6f4a0b0') in 0.044773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Broomstick1.fbx
+  artifactKey: Guid(fc5d52e81466bb144a14967d417fff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Broomstick1.fbx using Guid(fc5d52e81466bb144a14967d417fff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69f7e71e00cd90e61ae8fd5854822b7') in 0.059100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Pedestal.fbx
+  artifactKey: Guid(664188c76155dc245b2c14403c9fb9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Pedestal.fbx using Guid(664188c76155dc245b2c14403c9fb9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b48f303f981a76f7458e4d8a4a8ab2') in 0.036474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Bottle1.fbx
+  artifactKey: Guid(9f7588a70a70b124cbb9d1fdfd73abd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Bottle1.fbx using Guid(9f7588a70a70b124cbb9d1fdfd73abd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b364b2f28aa2c65e927f77cdc386b44') in 0.059016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Bottle3.fbx
+  artifactKey: Guid(6f5a29a25a6f28e409c320feb56ed11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Bottle3.fbx using Guid(6f5a29a25a6f28e409c320feb56ed11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eedd732dd5007246ede6f29510f1bc7') in 0.055013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/VialRack.fbx
+  artifactKey: Guid(f955cad60fb99fd4eb5261d8b4ae4ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/VialRack.fbx using Guid(f955cad60fb99fd4eb5261d8b4ae4ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cbdee305ea2dc8901a701720440e8e') in 0.056273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Cauldron2.fbx
+  artifactKey: Guid(aed248bf2bbbb714c8da73987f60bedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Cauldron2.fbx using Guid(aed248bf2bbbb714c8da73987f60bedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4cfd0417d8c0a25855a1f6f213f069') in 0.059888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand2.fbx
+  artifactKey: Guid(6c75e38ce3ba8344d96c05404910b377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand2.fbx using Guid(6c75e38ce3ba8344d96c05404910b377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6160beab76f2beabb1e55e0532fcf3') in 0.041898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Vial.fbx
+  artifactKey: Guid(03708826f24363e498f949458929150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Vial.fbx using Guid(03708826f24363e498f949458929150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a777e92398e26b514d7af62f9b5dcd') in 0.050596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Quill1.fbx
+  artifactKey: Guid(9f39cd5e0e4e503418823607e5d081d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Quill1.fbx using Guid(9f39cd5e0e4e503418823607e5d081d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6871f22a6afe6e056e33cc3a02bc42') in 0.033368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Broomstick3.fbx
+  artifactKey: Guid(55de14a08d37a1d43818646041b32a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Broomstick3.fbx using Guid(55de14a08d37a1d43818646041b32a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac42d4916edff0fe3454ad5d3508b439') in 0.054141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Broomstick2.fbx
+  artifactKey: Guid(439cc3d71ec85264cad526fd047e991a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Broomstick2.fbx using Guid(439cc3d71ec85264cad526fd047e991a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff764b48629bb7e7754021b50144f21') in 0.057093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Bottle2.fbx
+  artifactKey: Guid(bffcb6aad67ef96488dc4f02564378fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Bottle2.fbx using Guid(bffcb6aad67ef96488dc4f02564378fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb91845e9b094124c3a866bb706ca15b') in 0.065155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand1.fbx
+  artifactKey: Guid(c3238a5982970d24ea4e8ee54939c578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand1.fbx using Guid(c3238a5982970d24ea4e8ee54939c578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60883cb9f133a72dd7747ab1c985bbf') in 0.042216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand6.fbx
+  artifactKey: Guid(45641ba86498fc04590a5075b843571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand6.fbx using Guid(45641ba86498fc04590a5075b843571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdf4dfd252fce26715d47352663cccf') in 0.050731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.233848 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/BlackInkWell.prefab
+  artifactKey: Guid(e04e2087dfc27324f9e442736b985efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/BlackInkWell.prefab using Guid(e04e2087dfc27324f9e442736b985efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127382d17ef23cf928c87258589f5629') in 0.013458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Quill3.prefab
+  artifactKey: Guid(b6e30bf2930cadf4b91294306cb63a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Quill3.prefab using Guid(b6e30bf2930cadf4b91294306cb63a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f317d7d81c36b2609e9b5e1b30d44967') in 0.059672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand11.prefab
+  artifactKey: Guid(1eba170338476fd4c94c9fcff595b5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand11.prefab using Guid(1eba170338476fd4c94c9fcff595b5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99889a0019c56d755bbf23ca13645955') in 0.015250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/BrassInkWell.prefab
+  artifactKey: Guid(1b6acb4ec7e010d44ba8bc144d5d7235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/BrassInkWell.prefab using Guid(1b6acb4ec7e010d44ba8bc144d5d7235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a5e6c3796675362eda9ac4c8f32b47') in 0.021250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/OwlCage2.prefab
+  artifactKey: Guid(68bc3d910a64a5a4382ae078461ec0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/OwlCage2.prefab using Guid(68bc3d910a64a5a4382ae078461ec0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912dd11f536fb2134c31cbf41f3c4fb7') in 0.794935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Book2.prefab
+  artifactKey: Guid(40ab4d9af8fa1764a9cf9fc4d56498c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Book2.prefab using Guid(40ab4d9af8fa1764a9cf9fc4d56498c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4185df9693cdcb28df06409a9cc8006') in 0.017537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand8.prefab
+  artifactKey: Guid(6b67ec345f4633d4faa576df5691c65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand8.prefab using Guid(6b67ec345f4633d4faa576df5691c65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585fa38cdca98e2d59b32d4b9ca83284') in 0.022146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Bottle2.prefab
+  artifactKey: Guid(78c9bf73a6b66db46937494c615199ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Bottle2.prefab using Guid(78c9bf73a6b66db46937494c615199ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511c057892a66ad225779e0b1d091afc') in 0.015667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand3.prefab
+  artifactKey: Guid(5d3df2f1fece26d4da4b38d83efc1300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand3.prefab using Guid(5d3df2f1fece26d4da4b38d83efc1300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7617397b67093aa13a5ca683e3573fb1') in 0.016428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Bottle1.prefab
+  artifactKey: Guid(07358ba77bb3dd1489d880d4a32c61af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Bottle1.prefab using Guid(07358ba77bb3dd1489d880d4a32c61af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01113ddd093e778871c0e1602678689') in 0.018168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Pedestal.prefab
+  artifactKey: Guid(dd0886ee60c338e4e9351491b2b4ca30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Pedestal.prefab using Guid(dd0886ee60c338e4e9351491b2b4ca30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de5c4528939df2cf23c91601694eae1') in 0.015428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/VialStand.prefab
+  artifactKey: Guid(96c1f1fb5379d2b4e858f60005b60ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/VialStand.prefab using Guid(96c1f1fb5379d2b4e858f60005b60ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b86be9cdc2b554900027d001ec80e3') in 0.021428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Ladle.prefab
+  artifactKey: Guid(618980177af664142a43d295de949d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Ladle.prefab using Guid(618980177af664142a43d295de949d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f676cead8381bc298603b816b419f344') in 0.016321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Cauldron1.prefab
+  artifactKey: Guid(62355a28b41bfc844b5b483bcc043ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Cauldron1.prefab using Guid(62355a28b41bfc844b5b483bcc043ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e263cb0aaf9043fbcc7443158b1476b9') in 0.015786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Book3.prefab
+  artifactKey: Guid(49272f851808b8147b660191856c417b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Book3.prefab using Guid(49272f851808b8147b660191856c417b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accfc8f995c43fa409b8c68a9e34bf25') in 0.020370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand4.prefab
+  artifactKey: Guid(00f829159f236ef4f848927f1c04b005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand4.prefab using Guid(00f829159f236ef4f848927f1c04b005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2114c0de3ce7142a6c3157a8db047fd6') in 0.017963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Broomstick2.prefab
+  artifactKey: Guid(67ef958285ac3db4b8176c7f1e54bb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Broomstick2.prefab using Guid(67ef958285ac3db4b8176c7f1e54bb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c8027f060acfb5eef7c1507c5ef987') in 0.019688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand1B.prefab
+  artifactKey: Guid(5bbf409b2f25be2438c91384f2ea7ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand1B.prefab using Guid(5bbf409b2f25be2438c91384f2ea7ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dd94aa15a820566bb834ce68f416e7') in 0.017645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Broomstick1.prefab
+  artifactKey: Guid(85e446f4cb5e7d84dac0431b0ec68a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Broomstick1.prefab using Guid(85e446f4cb5e7d84dac0431b0ec68a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0921f61f65068a29d7e03bfcdf28a57f') in 0.019987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Cup.prefab
+  artifactKey: Guid(0798d862e67b2f349938cb846a615437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Cup.prefab using Guid(0798d862e67b2f349938cb846a615437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383c74fefe1b9831daaa282b508cd9ee') in 0.014871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/VialRack.prefab
+  artifactKey: Guid(2caa5af560f07f24780b92c9c083f693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/VialRack.prefab using Guid(2caa5af560f07f24780b92c9c083f693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc5e7e2db3c4099ad7280b7d3a45847') in 0.014037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand1A.prefab
+  artifactKey: Guid(2cc15cecbfd9ece49ab18f3423d45523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand1A.prefab using Guid(2cc15cecbfd9ece49ab18f3423d45523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf65c18010b301bf2c0a25e8865ba6b') in 0.018548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand10.prefab
+  artifactKey: Guid(0a0d4ebbbc7349c4ea3e9d38ff079309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand10.prefab using Guid(0a0d4ebbbc7349c4ea3e9d38ff079309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86b24851b706dd5759a6c07cf077a8b') in 0.015014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand6.prefab
+  artifactKey: Guid(934ade533ac2faa4d8cdd7006ad20201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand6.prefab using Guid(934ade533ac2faa4d8cdd7006ad20201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85851b86430c66d893ca21b69e606faf') in 0.018161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Broomstick3.prefab
+  artifactKey: Guid(03bd160b5f76804449e40c9d2a1ded08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Broomstick3.prefab using Guid(03bd160b5f76804449e40c9d2a1ded08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9befad1b1a57da098c966fd7d018ce23') in 0.018603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand9.prefab
+  artifactKey: Guid(29c0fca7bef86464b9890ccd0464943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand9.prefab using Guid(29c0fca7bef86464b9890ccd0464943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b243f17fc35de2686433468ca4462198') in 0.013933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Quill2.prefab
+  artifactKey: Guid(abf28bc049a343841aa65fbdc12426cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Quill2.prefab using Guid(abf28bc049a343841aa65fbdc12426cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad59d12055fef56c3f693d036c8fe78b') in 0.014959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Book1.prefab
+  artifactKey: Guid(eb3ca1c98bfad6c499c2ff5a38b90a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Book1.prefab using Guid(eb3ca1c98bfad6c499c2ff5a38b90a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1973c9e22eee47f62abec581ef21e8ad') in 0.018774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Book5.prefab
+  artifactKey: Guid(27a0cbf4d8bb4754c9a58d93ec238921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Book5.prefab using Guid(27a0cbf4d8bb4754c9a58d93ec238921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b228da21c1b02a111c7efa84ec8e25') in 0.019704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Book4.prefab
+  artifactKey: Guid(168fbca401c632a4888cbf723b0bbcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Book4.prefab using Guid(168fbca401c632a4888cbf723b0bbcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c2591e44a11eed70b7f91c21d18e3f') in 0.018305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand5.prefab
+  artifactKey: Guid(a6fe1d21ef7feb648bb45371f440c67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand5.prefab using Guid(a6fe1d21ef7feb648bb45371f440c67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c00473e5c199a29d2d72413911f4d41') in 0.017415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/ClearInkWell.prefab
+  artifactKey: Guid(46ec8665ea0ca3648a5f24a60baf67fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/ClearInkWell.prefab using Guid(46ec8665ea0ca3648a5f24a60baf67fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f7d48e6937f5df272186633c951f5a') in 0.015167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Vial.prefab
+  artifactKey: Guid(9695eaedb278f9d428e902d1b076c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Vial.prefab using Guid(9695eaedb278f9d428e902d1b076c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0ed4f68b17e679ebacf4400453cdb7') in 0.015809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Jar1.prefab
+  artifactKey: Guid(6754c3fe9dfbab84a81c8c6dab73082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Jar1.prefab using Guid(6754c3fe9dfbab84a81c8c6dab73082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c31fb7284d4533c70f8ec35864802f') in 0.014453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Cauldron2.prefab
+  artifactKey: Guid(a758ab402a3b882469a0595aacb1dfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Cauldron2.prefab using Guid(a758ab402a3b882469a0595aacb1dfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d0c2fb15e759ce55269eac85953e53') in 0.014981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Quill1.prefab
+  artifactKey: Guid(c805d8f84ca39bd4392a45daa9d13e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Quill1.prefab using Guid(c805d8f84ca39bd4392a45daa9d13e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a0db52a2044de408cc4c86a21cce3c') in 0.016950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand7.prefab
+  artifactKey: Guid(e14d42e0ad48d0c45a3f839277e80a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand7.prefab using Guid(e14d42e0ad48d0c45a3f839277e80a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02707f53a0e4b1541593dc8c2280600') in 0.018356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand2.prefab
+  artifactKey: Guid(c2755ac84bd8d8c4c9a88b4e1ffed36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand2.prefab using Guid(c2755ac84bd8d8c4c9a88b4e1ffed36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054eaf4856ea8167abcd67b3e8deaa67') in 0.015620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Wand9B.prefab
+  artifactKey: Guid(fd3f9fb4a9a2eca44be763adc06d46ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Wand9B.prefab using Guid(fd3f9fb4a9a2eca44be763adc06d46ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cc3e63d03938c3885246a4bc87ad2e') in 0.016840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/OwlCage1.prefab
+  artifactKey: Guid(75df85b89cc670e439487e09b5e8665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/OwlCage1.prefab using Guid(75df85b89cc670e439487e09b5e8665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79921f2140975550310905ce472f3a93') in 0.020310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Bottle3.prefab
+  artifactKey: Guid(2294043ec28a1d44197b1f62b4bde490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Bottle3.prefab using Guid(2294043ec28a1d44197b1f62b4bde490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e26f96d912b7ec69a8d53c28a83c17') in 0.018385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Book6.prefab
+  artifactKey: Guid(6eceacfa80d5c1a439eff7018aaf89ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Book6.prefab using Guid(6eceacfa80d5c1a439eff7018aaf89ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a56b726758d7518507ea7526f76ae8f') in 0.020065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.808833 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/BlackInkWell.mat
+  artifactKey: Guid(2d709cec54eb8ed46bb90231a3ccba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/BlackInkWell.mat using Guid(2d709cec54eb8ed46bb90231a3ccba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504d906093d98c36ed18b2e64674206c') in 0.011657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Quill1.mat
+  artifactKey: Guid(82bbf623b2f049a4887f7de591201145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Quill1.mat using Guid(82bbf623b2f049a4887f7de591201145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cb95df5ee75a2fcc9f53751f9ea2c8') in 0.015161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Brass.mat
+  artifactKey: Guid(5dbbaebc17fa3f74ebfeb69a2365eb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Brass.mat using Guid(5dbbaebc17fa3f74ebfeb69a2365eb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c89e5993bb6c334c52732387a42c95c') in 0.752278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Book1.mat
+  artifactKey: Guid(fefc18420023b424f999e55bc1353d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Book1.mat using Guid(fefc18420023b424f999e55bc1353d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9bd59eb5cb688a5a7527a3a7e21c2f') in 0.020447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Book3.mat
+  artifactKey: Guid(487164ae7bc0d004eaf40d2bb48ca10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Book3.mat using Guid(487164ae7bc0d004eaf40d2bb48ca10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07afad3ccd49e5d231a9cee86420c86') in 0.013809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand5.mat
+  artifactKey: Guid(a08971a7ca5eb5c44b13c0931154d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand5.mat using Guid(a08971a7ca5eb5c44b13c0931154d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5052a21b740f08df197d5a759cc123c') in 0.011943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/VialRack.mat
+  artifactKey: Guid(27fd81bf880f8a64aaaa33ff9c9d0710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/VialRack.mat using Guid(27fd81bf880f8a64aaaa33ff9c9d0710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a95186b422bb0aeae62aa58a8e5e95') in 0.011466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Metal2.mat
+  artifactKey: Guid(4afd58c02d015c541943dd06ab441af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Metal2.mat using Guid(4afd58c02d015c541943dd06ab441af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70af0fe46b5825ecf8bb1102dab900c') in 0.017193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/OwlCage2.mat
+  artifactKey: Guid(c462e6e2405ab1144a42c5e5ca6321bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/OwlCage2.mat using Guid(c462e6e2405ab1144a42c5e5ca6321bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3facf88073e219a019071346f2146236') in 0.012754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Chrome.mat
+  artifactKey: Guid(88709855484eb64468d9d53fbacec23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Chrome.mat using Guid(88709855484eb64468d9d53fbacec23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1412cf0f13360bad9bb68cfb984eaa') in 0.016109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand4.mat
+  artifactKey: Guid(16884707525c1cb438ed4f2d6a22fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand4.mat using Guid(16884707525c1cb438ed4f2d6a22fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff976b175578dd5adf52c5f775c7324') in 0.011885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Book4.mat
+  artifactKey: Guid(0a3c4a70e87f33740bf92239cdef6af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Book4.mat using Guid(0a3c4a70e87f33740bf92239cdef6af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23db0f1fa286d71e017d6a9b827ab52a') in 0.012328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Metal1.mat
+  artifactKey: Guid(cdd270b9601841443855778dd80bf91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Metal1.mat using Guid(cdd270b9601841443855778dd80bf91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40260b715742563924d7b7664e984751') in 0.016341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand10.mat
+  artifactKey: Guid(9d5e008562a11584d92af2cce9f463f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand10.mat using Guid(9d5e008562a11584d92af2cce9f463f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585c8b10b550779f47836936249a4f91') in 0.011667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Quill3.mat
+  artifactKey: Guid(a13cdc5d44f3c4d4a8e66ad62dd7fa67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Quill3.mat using Guid(a13cdc5d44f3c4d4a8e66ad62dd7fa67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e40a913e9737eb94c59d55f7670c33') in 0.011533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Floor.mat
+  artifactKey: Guid(f80c863b2e153a04fa5f6acdbb23d518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Floor.mat using Guid(f80c863b2e153a04fa5f6acdbb23d518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd7b71b9bb27d10850a9c45ded33e3e') in 0.015563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Cup.mat
+  artifactKey: Guid(82ac45266bb47384396c24a3cd5ab45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Cup.mat using Guid(82ac45266bb47384396c24a3cd5ab45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bb18640bb2720a99da79ef343b7e4b') in 0.013495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Book2.mat
+  artifactKey: Guid(6d96eeaccd1b9e5478f922e006463c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Book2.mat using Guid(6d96eeaccd1b9e5478f922e006463c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2233efe9cbc83899a75226b3e2824a0b') in 0.012975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Broom3.mat
+  artifactKey: Guid(fab4f6f998746044aaa00a01ba0c32a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Broom3.mat using Guid(fab4f6f998746044aaa00a01ba0c32a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbc657d93b11f0d2f4eb96b20affd41') in 0.015703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/ClearGlass.mat
+  artifactKey: Guid(8856b1b279600374c92c47c9c0f35e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/ClearGlass.mat using Guid(8856b1b279600374c92c47c9c0f35e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4df2779aceb2d2c937dfaba500fffd') in 0.014543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand2.mat
+  artifactKey: Guid(69b49cd360ad34447827f5873ebcff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand2.mat using Guid(69b49cd360ad34447827f5873ebcff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d60b57f1338941d99d39ba2c1c5cfad') in 0.014064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand8.mat
+  artifactKey: Guid(b4ddf55a186b6be479d0ddc133dfda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand8.mat using Guid(b4ddf55a186b6be479d0ddc133dfda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ece1f8944c0971d4c73e4466e34949') in 0.014699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Broom2.mat
+  artifactKey: Guid(ebe02cb1f63c6814c89e6e906887c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Broom2.mat using Guid(ebe02cb1f63c6814c89e6e906887c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5004d17e8598c6fa579297cb8c30042d') in 0.017495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Floor 1.mat
+  artifactKey: Guid(fa35629e1017cee48b4567901957a106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Floor 1.mat using Guid(fa35629e1017cee48b4567901957a106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b359c6194b75dc442e25f4d9dce291d') in 0.017222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand3.mat
+  artifactKey: Guid(562111eec1bf0e846816e145abbbe507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand3.mat using Guid(562111eec1bf0e846816e145abbbe507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5083c31405897ff7c3f0f7112ac0ca29') in 0.013584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Broom1.mat
+  artifactKey: Guid(619e569e2f69a1248bf4e94f75b59486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Broom1.mat using Guid(619e569e2f69a1248bf4e94f75b59486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540a17bc4b6c216a7c7299e1be7e4a26') in 0.016920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Cauldron2.mat
+  artifactKey: Guid(56157d107a50a1841bb1b249c544ca13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Cauldron2.mat using Guid(56157d107a50a1841bb1b249c544ca13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d8a9d783efae3e067fec5e4080b2b7') in 0.012214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wood1.mat
+  artifactKey: Guid(6fa37f58ad040ad439be60d9c7f3ebe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wood1.mat using Guid(6fa37f58ad040ad439be60d9c7f3ebe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e0d608b9be85ee1005fdbaea953899') in 0.017100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand1B.mat
+  artifactKey: Guid(ee55d46e6cbf6404aaba0a5298841f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand1B.mat using Guid(ee55d46e6cbf6404aaba0a5298841f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700c20d143ca40275c159948b27c96d5') in 0.012358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Book5.mat
+  artifactKey: Guid(990e2a8b93d78ef448afb353d8e00992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Book5.mat using Guid(990e2a8b93d78ef448afb353d8e00992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210702da4c37a01d0ad279b4df1aa9c3') in 0.011936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand6.mat
+  artifactKey: Guid(2e090c732b9385841b408808fce553b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand6.mat using Guid(2e090c732b9385841b408808fce553b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f604917e765b824a584cd5ecdfdf6570') in 0.010433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand1.mat
+  artifactKey: Guid(8d451e3f8ec527746be5c5cba7f5b9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand1.mat using Guid(8d451e3f8ec527746be5c5cba7f5b9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae1d74b7f2d50cac368fd8b090621d1') in 0.012309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand11.mat
+  artifactKey: Guid(32752e4655074bd4dbe6ccd87e0172fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand11.mat using Guid(32752e4655074bd4dbe6ccd87e0172fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831ee611096fe80c18f8ea0e8448c5a2') in 0.011357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Cauldron1.mat
+  artifactKey: Guid(0fafbbc79d9942e448f18cef7df2b068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Cauldron1.mat using Guid(0fafbbc79d9942e448f18cef7df2b068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778d1c48d3c0807e3303f03835bbc83a') in 0.013504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand9.mat
+  artifactKey: Guid(1c75c6692b971444fa7ca0fbd20a104a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand9.mat using Guid(1c75c6692b971444fa7ca0fbd20a104a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054c7186f14c6ffd3945e35ad6c63154') in 0.011543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Steel.mat
+  artifactKey: Guid(4102c768f9bc2e143b2aa6e2021d3369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Steel.mat using Guid(4102c768f9bc2e143b2aa6e2021d3369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758fee40e0573195e17021c5b675c050') in 0.017916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/BlackSmooth.mat
+  artifactKey: Guid(5421213cc46d91e49a59c88fa773e88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/BlackSmooth.mat using Guid(5421213cc46d91e49a59c88fa773e88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0c5bf7d2fe4b40229b23e6f0a4cf90') in 0.014593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Quill2.mat
+  artifactKey: Guid(9b6c3ac695605c54a9d6b08e5815ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Quill2.mat using Guid(9b6c3ac695605c54a9d6b08e5815ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce29398a1a0a906cbfb074a89e6b2768') in 0.012390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/WhiteSmooth.mat
+  artifactKey: Guid(a2e2b5e634b52a546bf70002f7b38e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/WhiteSmooth.mat using Guid(a2e2b5e634b52a546bf70002f7b38e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b618d72c9cbc4a6cf090ebf85f630b0e') in 0.013355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Chrome Dirty.mat
+  artifactKey: Guid(da33fedc515564b41a3262a2eff88f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Chrome Dirty.mat using Guid(da33fedc515564b41a3262a2eff88f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19eb344ff496e38345232588817849da') in 0.016420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/OwlCage1.mat
+  artifactKey: Guid(db25b3d53419da541b5eb0b232197174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/OwlCage1.mat using Guid(db25b3d53419da541b5eb0b232197174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b056aaa63e36107f117fa3104525f49') in 0.013975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand7.mat
+  artifactKey: Guid(dfd6c4c3215945e4094fdd8a59196b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand7.mat using Guid(dfd6c4c3215945e4094fdd8a59196b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e9b98c16a586ad00b562ac89cd0fa3') in 0.014224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wood2.mat
+  artifactKey: Guid(e81500ca5ca6a35499e7ff81d8123b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wood2.mat using Guid(e81500ca5ca6a35499e7ff81d8123b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b00bc508d16ed158673a90ef4419828') in 0.015841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand9B.mat
+  artifactKey: Guid(db2937bc79527154296f69f71889bbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand9B.mat using Guid(db2937bc79527154296f69f71889bbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21198409622efcd60e83bdb2c5194e62') in 0.012535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Book6.mat
+  artifactKey: Guid(dfaa2207cbf9b7e47b994f75c834c930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Book6.mat using Guid(dfaa2207cbf9b7e47b994f75c834c930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70fd2c25550f24bab539b8e4120554b') in 0.013194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/LabelandCork.mat
+  artifactKey: Guid(a2c190a6ef317e04cb48c15cc7e2089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/LabelandCork.mat using Guid(a2c190a6ef317e04cb48c15cc7e2089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b082cad9b33d1cd9142cb73dd42d2d') in 0.015063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.077203 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book1 Diffuse Colour 1.png
+  artifactKey: Guid(7f7cee8bf4d74e24287821e4f694462f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book1 Diffuse Colour 1.png using Guid(7f7cee8bf4d74e24287821e4f694462f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cdb6c5bc0f27702ad5fec438e44915') in 0.017558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_SteelRough_1K_albedo 2.tif
+  artifactKey: Guid(18cc712cf305e4b489cff018d6b0b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_SteelRough_1K_albedo 2.tif using Guid(18cc712cf305e4b489cff018d6b0b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e167cb0a6085396fe11431e390b3503') in 0.025167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand1 Diffuse Color 1.png
+  artifactKey: Guid(d20ade470976b154ea1f1eaab0b8831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand1 Diffuse Color 1.png using Guid(d20ade470976b154ea1f1eaab0b8831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29290e0197d279ed00b2afdc13dbf4d') in 0.027343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/wand4.png
+  artifactKey: Guid(d87879f35728b70499b41efb091622cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/wand4.png using Guid(d87879f35728b70499b41efb091622cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5123851f92a17711d6c4bb95a9163ab9') in 0.015681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Quill2 Diffuse Colour.png
+  artifactKey: Guid(632c97daaffbfcd49a38847a07777c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Quill2 Diffuse Colour.png using Guid(632c97daaffbfcd49a38847a07777c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e931d8bd2349581b1fa291dab549907') in 0.015573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Brrom1 Diffuse Colour 1.png
+  artifactKey: Guid(8cd55a5dfde4a03419318f3d623b93fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Brrom1 Diffuse Colour 1.png using Guid(8cd55a5dfde4a03419318f3d623b93fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a70b73b7ce5d9f2a13da64a6d18667b') in 0.015316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/darkwood 1.PNG
+  artifactKey: Guid(7b829a5f96a6d7f44ad9325ea0eb8efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/darkwood 1.PNG using Guid(7b829a5f96a6d7f44ad9325ea0eb8efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba5116be7c2cd7222387eaf356dc57e') in 0.017611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book3 Diffuse Colour.png
+  artifactKey: Guid(f0f762d7833d7d54f904d6b063ebc795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book3 Diffuse Colour.png using Guid(f0f762d7833d7d54f904d6b063ebc795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501816a9dd3a6a50ee88e776ed3c067b') in 0.017773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/darkwood.PNG
+  artifactKey: Guid(671ce27694111ce418e7f403b88e9efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/darkwood.PNG using Guid(671ce27694111ce418e7f403b88e9efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485b0fb20a56bc5c0a02e40caa5c2451') in 0.015391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_SteelPlain_1K_albedo 1.tif
+  artifactKey: Guid(ab6c969cacea55a408cdb997bce696c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_SteelPlain_1K_albedo 1.tif using Guid(ab6c969cacea55a408cdb997bce696c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e191e5ce849294e04e6cd626f78815') in 0.015115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_SteelRough_1K_albedo 1.tif
+  artifactKey: Guid(e489a54b1e8963e428fe5090bfffdb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_SteelRough_1K_albedo 1.tif using Guid(e489a54b1e8963e428fe5090bfffdb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576fbb5aa658accd7e24de7db680b79a') in 0.016002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Broom3 Diffuse Colour 1.png
+  artifactKey: Guid(8c4c77d27efc0a44e83fad19fe4448e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Broom3 Diffuse Colour 1.png using Guid(8c4c77d27efc0a44e83fad19fe4448e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f299ffd95e249dd23c58d064c7fb61') in 0.014422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book4 Diffuse Colour.png
+  artifactKey: Guid(2c5a0da64cf195a45aaf15d13b548ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book4 Diffuse Colour.png using Guid(2c5a0da64cf195a45aaf15d13b548ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b618206ce40bd181f78b4a19c1464ff9') in 0.015177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Broom3 Diffuse Colour.png
+  artifactKey: Guid(23db02f77f1577b4fa8e58f50d9fda8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Broom3 Diffuse Colour.png using Guid(23db02f77f1577b4fa8e58f50d9fda8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0db313521beca6bc15dca4dd60e657') in 0.015502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_StainlessClean_1K_albedo 1.tif
+  artifactKey: Guid(1239da638b04b9c4ca505f7b0973ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_StainlessClean_1K_albedo 1.tif using Guid(1239da638b04b9c4ca505f7b0973ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91487b372f5178952d6c90819c1d1219') in 0.015100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/grunge wallpaper 1.png
+  artifactKey: Guid(b5cf00cbde464904ebe82c851f6199b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/grunge wallpaper 1.png using Guid(b5cf00cbde464904ebe82c851f6199b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e3209c492f5b5b7b4ed316cf85a2dd') in 0.015960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book1 Diffuse Colour.png
+  artifactKey: Guid(e211f6ce994d7d7468031389129fae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book1 Diffuse Colour.png using Guid(e211f6ce994d7d7468031389129fae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fa2c8000f9a369902649b682ee29e5') in 0.016677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book5 Diffuse Colour 1.png
+  artifactKey: Guid(8bbfe308e7515b44ea7136368b2293b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book5 Diffuse Colour 1.png using Guid(8bbfe308e7515b44ea7136368b2293b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10afbbe2af2a0693a6866dd60a609fd3') in 0.017493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book6 Diffuse Colour.png
+  artifactKey: Guid(7b946f8946da51c4c88ff5c2b592c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book6 Diffuse Colour.png using Guid(7b946f8946da51c4c88ff5c2b592c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e04e2763afe4b1573a335cd454d1db2') in 0.017062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand2 Diffuse Color.png
+  artifactKey: Guid(a9fb84270078ccd4bb28b2b571c3ed13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand2 Diffuse Color.png using Guid(a9fb84270078ccd4bb28b2b571c3ed13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004d15275f8af6aaf1ad1214271bfbc0') in 0.015192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand5 Diffuse Colour.png
+  artifactKey: Guid(47dea953229b811448adf81658fb8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand5 Diffuse Colour.png using Guid(47dea953229b811448adf81658fb8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba0bc7c839afe8e393bebd16b2e986e') in 0.015460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book2 Diffuse Colour 1.png
+  artifactKey: Guid(97dbe2f9c0071d54182ebf1fe44858c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book2 Diffuse Colour 1.png using Guid(97dbe2f9c0071d54182ebf1fe44858c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb9157e6ccb735a470e9caec2793aac') in 0.014565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book2 Diffuse Colour.png
+  artifactKey: Guid(6b865f3f9713eb348b219a0544ca27c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book2 Diffuse Colour.png using Guid(6b865f3f9713eb348b219a0544ca27c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cefbf8e7e3224361dc7397f663b838') in 0.020630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/LabelandCork Diffuse Color.png
+  artifactKey: Guid(424c03e81f8f130489a05fbfcf85ce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/LabelandCork Diffuse Color.png using Guid(424c03e81f8f130489a05fbfcf85ce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c331cce61547e1bdf36e1783aeed08a4') in 0.015652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand11 Diffuse Color.png
+  artifactKey: Guid(48d97b7ff3859fa4a90c7fddd3eceaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand11 Diffuse Color.png using Guid(48d97b7ff3859fa4a90c7fddd3eceaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647f38976d16830f7a98282d5ddb930b') in 0.016158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Paint_Scratched_1K_albedo 1.tif
+  artifactKey: Guid(a1299f3d262369e4dacb9a26efa73db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Paint_Scratched_1K_albedo 1.tif using Guid(a1299f3d262369e4dacb9a26efa73db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb70917ebc2eac93bdefd8f112d580e') in 0.016719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/gothicwallpaper.png
+  artifactKey: Guid(457dd0d16569a5f4fb9a28446a59702f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/gothicwallpaper.png using Guid(457dd0d16569a5f4fb9a28446a59702f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a295ba083e2faf8efa4685b952bb23') in 0.016385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Broom2 Diffuse Colour.png
+  artifactKey: Guid(eccd9537e59d71640af7dd523b54ad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Broom2 Diffuse Colour.png using Guid(eccd9537e59d71640af7dd523b54ad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b5060cb176b8dc45155850acd09c79') in 0.016953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/WAND4nORMAL.png
+  artifactKey: Guid(a57bfc598210a6a4db1a084e5657fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/WAND4nORMAL.png using Guid(a57bfc598210a6a4db1a084e5657fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f09e790d0a38fd8fac625c51dc28f0') in 0.017758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand7 Diffuse Colour 3.png
+  artifactKey: Guid(bc902121d42541447acfe29cdafde445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand7 Diffuse Colour 3.png using Guid(bc902121d42541447acfe29cdafde445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c823dbc4320791c444461349f29b237e') in 0.013817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand8 Diffuse Colour.png
+  artifactKey: Guid(2b1a6a68a055e87409fde2a164f88a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand8 Diffuse Colour.png using Guid(2b1a6a68a055e87409fde2a164f88a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78406d2159b9f2b979cb1df515360a29') in 0.014860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book4 Diffuse Colour 1.png
+  artifactKey: Guid(6557f27ea868d9044988cefb8baee8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book4 Diffuse Colour 1.png using Guid(6557f27ea868d9044988cefb8baee8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c5640715c6faca743b77ec2fa58713') in 0.016965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand7 Diffuse Colour 2.png
+  artifactKey: Guid(c0caf7bfb3f895e42a4afe923382697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand7 Diffuse Colour 2.png using Guid(c0caf7bfb3f895e42a4afe923382697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3b21238d1f95d0ec3caf8efbb59482') in 0.013284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_BrassPolished_1K_albedo 1.tif
+  artifactKey: Guid(e9d193882287b304a8df8a4048fa1e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_BrassPolished_1K_albedo 1.tif using Guid(e9d193882287b304a8df8a4048fa1e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233620c10fbfdb6c83f980c7ec2861fd') in 0.017809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book3 Diffuse Colour 1.png
+  artifactKey: Guid(c624bdf784be1c14f98610d4cdce9635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book3 Diffuse Colour 1.png using Guid(c624bdf784be1c14f98610d4cdce9635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d078c7c65ef2bea3a8967ab809ce924') in 0.015335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book6 Diffuse Colour 1.png
+  artifactKey: Guid(ea0113eec16cf9246a9a67e91b732d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book6 Diffuse Colour 1.png using Guid(ea0113eec16cf9246a9a67e91b732d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd941ceb26de82ad585e56c80c81278dd') in 0.014910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Broom2 Diffuse Colour 1.png
+  artifactKey: Guid(f1ad601af40efc64c8bdb90d56c88732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Broom2 Diffuse Colour 1.png using Guid(f1ad601af40efc64c8bdb90d56c88732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cfa234615b4c9d9b5fd35302ae68c4') in 0.014408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Paint_Scratched_1K_albedo 2.tif
+  artifactKey: Guid(049bfefba3af33a45884a5190a3adcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Paint_Scratched_1K_albedo 2.tif using Guid(049bfefba3af33a45884a5190a3adcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b90327c5150619c58102148eeee1be') in 0.015317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Brrom1 Diffuse Colour.png
+  artifactKey: Guid(1d73aafb9c610a84cb44d251edc09cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Brrom1 Diffuse Colour.png using Guid(1d73aafb9c610a84cb44d251edc09cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561b456b1850110e8cc7650d05f0834b') in 0.018723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Quill3 Diffuse Colour.png
+  artifactKey: Guid(531f4bdbf89f41e49b800ac7637fc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Quill3 Diffuse Colour.png using Guid(531f4bdbf89f41e49b800ac7637fc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752153b9ad5fe3add02220fb41b86b84') in 0.015812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand1 Diffuse Color.png
+  artifactKey: Guid(94985d936df4361439fa70f0f9f065b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand1 Diffuse Color.png using Guid(94985d936df4361439fa70f0f9f065b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cd13e163b5c70da88e7f054f092c8e') in 0.016753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_StainlessClean_1K_albedo 2.tif
+  artifactKey: Guid(ae6d79130a5611d4680dd5d9c3703039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_StainlessClean_1K_albedo 2.tif using Guid(ae6d79130a5611d4680dd5d9c3703039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357a1e88da1649b205f9410eab10bdef') in 0.018566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Quill1 Diffuse Colour.png
+  artifactKey: Guid(970c18c415cc2414990a76643a01dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Quill1 Diffuse Colour.png using Guid(970c18c415cc2414990a76643a01dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c526965dc9a8e3445c41b72171840e5') in 0.015970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand3 Diffuse Colour.png
+  artifactKey: Guid(aced0a3e045f74f49851c06566a6bd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand3 Diffuse Colour.png using Guid(aced0a3e045f74f49851c06566a6bd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6aef1df2b1719ec19494eaa933206c') in 0.018589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand3 Diffuse Colour2.png
+  artifactKey: Guid(99826e6e18a86ae43901cb2d2e9ec584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand3 Diffuse Colour2.png using Guid(99826e6e18a86ae43901cb2d2e9ec584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15ae90b43b336770ec539c8372d2d4c') in 0.015416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Book5 Diffuse Colour.png
+  artifactKey: Guid(42f58275c0628434e849b18b5e0c1e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Book5 Diffuse Colour.png using Guid(42f58275c0628434e849b18b5e0c1e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c140b64e3eb535716dfe15cb7bf22a77') in 0.014943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/Wand3 Diffuse Colour3.png
+  artifactKey: Guid(7a48933e93dc45c4e9784be175f17e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/Wand3 Diffuse Colour3.png using Guid(7a48933e93dc45c4e9784be175f17e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6958d3361be6a43f82061cebeddbec70') in 0.016759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_BrassPolished_1K_albedo 2.tif
+  artifactKey: Guid(065912a7b808862498aee016c1418c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Textures/TexturesCom_Metal_BrassPolished_1K_albedo 2.tif using Guid(065912a7b808862498aee016c1418c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b89231c385612aa8b200ad00d8a1ac') in 0.019211 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016328 seconds.
+Registered in 0.033668 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:D:\Program Files\Unity 2021.1.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
 Mono: successfully reloaded assembly
-- Completed reload, in  1.533 seconds
+- Completed reload, in  3.074 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1534ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (3074ms)
+		BeginReloadAssembly (217ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1270ms)
-			LoadAssemblies (174ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (2007ms)
+			LoadAssemblies (197ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (454ms)
+			SetupTypeCache (992ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (477ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (342ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4328 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.1 MB.
-System memory in use after: 189.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4959.
-Total: 5.507700 ms (FindLiveObjects: 0.580000 ms CreateObjectMapping: 0.528600 ms MarkObjects: 4.355300 ms  DeleteObjects: 0.042900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018469 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.392 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1393ms)
-		BeginReloadAssembly (172ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1155ms)
-			LoadAssemblies (162ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (456ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (493ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
+				BeforeProcessingInitializeOnLoad (126ms)
 				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4328 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.1 MB.
-System memory in use after: 189.4 MB.
+Unloading 4780 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.5 MB.
+System memory in use after: 297.0 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4962.
-Total: 7.720000 ms (FindLiveObjects: 0.513900 ms CreateObjectMapping: 0.707400 ms MarkObjects: 6.478400 ms  DeleteObjects: 0.019300 ms)
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 6243.
+Total: 6.233100 ms (FindLiveObjects: 0.643000 ms CreateObjectMapping: 0.617800 ms MarkObjects: 4.905600 ms  DeleteObjects: 0.065900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028358 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:D:\Program Files\Unity 2021.1.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.448 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2448ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1389ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (468ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (367ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4723 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 294.8 MB.
+System memory in use after: 295.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 6246.
+Total: 6.830000 ms (FindLiveObjects: 0.590500 ms CreateObjectMapping: 0.256800 ms MarkObjects: 5.943500 ms  DeleteObjects: 0.037800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028290 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: F:\Progetti\SeriousGame_Uniba\Endless_game\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:D:\Program Files\Unity 2021.1.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2453ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (2178ms)
+			LoadAssemblies (952ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (580ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4723 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 294.7 MB.
+System memory in use after: 295.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 6249.
+Total: 5.073800 ms (FindLiveObjects: 0.534500 ms CreateObjectMapping: 0.222400 ms MarkObjects: 4.279500 ms  DeleteObjects: 0.036700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
