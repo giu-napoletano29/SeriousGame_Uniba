@@ -10,6 +10,7 @@ public class GameRules : MonoBehaviour
     public Text countdownDisplay;
     public Text itemsRem;
     public int totItems;
+    public int nitemToSpawn;
     internal int itemsPicked = 0;
     public int mistake = 0;
     public List<GameObject> itemToSpawn;
@@ -20,7 +21,7 @@ public class GameRules : MonoBehaviour
     void Start()
     {
         StartGame();
-        SpawnItem(totItems);
+        SpawnItem(nitemToSpawn);
         StartCoroutine(Countdown());
     }
 
@@ -67,7 +68,8 @@ public class GameRules : MonoBehaviour
         {
             //Win condition
             countdownDisplay.text = "VINTO!";
-            Time.timeScale = 0;
+            overText.text = "Complimenti hai vinto!";
+            GameOver();
         }
     }
 

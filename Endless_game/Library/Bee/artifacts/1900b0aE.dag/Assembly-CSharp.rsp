@@ -379,6 +379,7 @@
 "Assets/Soja Exiles/SE Basic Assets/Scripts and Animations/First Person Player/PlayerMovement.cs"
 "Assets/Soja Exiles/SE Basic Assets/Scripts and Animations/Windows/opencloseWindow.cs"
 "Assets/Soja Exiles/SE Basic Assets/Scripts and Animations/Windows/opencloseWindow1.cs"
+"Assets/SoundSystem.cs"
 "Assets/SpawnPoint.cs"
 "Assets/Supercyan Character Pack Free Sample/Scripts/DemoFree.cs"
 "Assets/Supercyan Character Pack Free Sample/Scripts/FreeCameraLogic.cs"
