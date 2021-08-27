@@ -11,7 +11,7 @@ public class vCharacterEditor : Editor
 
     void OnEnable()
     {
-        //vThirdPersonMotor motor = (vThirdPersonMotor)target;
+        vThirdPersonMotor motor = (vThirdPersonMotor)target;
     }
 
     public override void OnInspectorGUI()

@@ -102,6 +102,7 @@ namespace Invector.vCharacterController
         internal Vector3 colliderCenter;                    // storage the center of the capsule collider info                
         internal Vector3 inputSmooth;                       // generate smooth input based on the inputSmooth value       
         internal Vector3 moveDirection;                     // used to know the direction you're moving 
+        internal Vector3 moveDue;                     // used to know the direction you're moving 
 
         #endregion
 
@@ -170,6 +171,7 @@ namespace Invector.vCharacterController
 
             if (!isGrounded || isJumping) return;
 
+            //_direction -= min;
             _direction.y = 0;
             _direction.x = Mathf.Clamp(_direction.x, -1f, 1f);
             _direction.z = Mathf.Clamp(_direction.z, -1f, 1f);
@@ -182,7 +184,9 @@ namespace Invector.vCharacterController
 
             bool useVerticalVelocity = true;
             if (useVerticalVelocity) targetVelocity.y = _rigidbody.velocity.y;
+            
             _rigidbody.velocity = targetVelocity;
+
         }
 
         public virtual void CheckSlopeLimit()
@@ -220,15 +224,20 @@ namespace Invector.vCharacterController
         public virtual void RotateToDirection(Vector3 direction)
         {
             RotateToDirection(direction, isStrafing ? strafeSpeed.rotationSpeed : freeSpeed.rotationSpeed);
+            //Debug.Log("Direction: " + direction);
         }
 
         public virtual void RotateToDirection(Vector3 direction, float rotationSpeed)
         {
             if (!jumpAndRotate && !isGrounded) return;
             direction.y = 0f;
+            //direction.x = input.x;
             Vector3 desiredForward = Vector3.RotateTowards(transform.forward, direction.normalized, rotationSpeed * Time.deltaTime, .1f);
+            //Debug.Log("desiredForward: " + desiredForward);
             Quaternion _newRotation = Quaternion.LookRotation(desiredForward);
+            //Debug.Log("_newRotation: " + _newRotation);
             transform.rotation = _newRotation;
+            //transform.Rotate(0, input.x * freeSpeed.rotationSpeed * Time.deltaTime, 0);
         }
 
         #endregion

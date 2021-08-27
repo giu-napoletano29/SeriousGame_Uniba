@@ -110,6 +110,9 @@ public class Inventory : MonoBehaviour
     {
         if (i > -1)
         {
+            GameRules g;
+            g = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameRules>();
+
             if (string.Equals(type, slot[i].GetComponent<Slot>().type))
             {
 
@@ -124,9 +127,11 @@ public class Inventory : MonoBehaviour
                 slot[i].GetComponent<Slot>().UpdateSlot();
                 slot[i].GetComponent<Slot>().empty = true;
                 //Destroy item maybe
-                GameRules g;
-                g = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameRules>();
                 g.incItemPicked();
+            }
+            else
+            {
+                g.incMistake();
             }
         }
     }

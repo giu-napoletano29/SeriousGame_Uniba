@@ -35,7 +35,7 @@ namespace Invector.vCharacterController
             }
 
             if (!useRootMotion)
-                MoveCharacter(moveDirection);
+                MoveCharacter(moveDue);
         }
 
         public virtual void ControlRotationType()
@@ -58,6 +58,7 @@ namespace Invector.vCharacterController
         {
             if (input.magnitude <= 0.01)
             {
+
                 moveDirection = Vector3.Lerp(moveDirection, Vector3.zero, (isStrafing ? strafeSpeed.movementSmooth : freeSpeed.movementSmooth) * Time.deltaTime);
                 return;
             }
@@ -71,6 +72,8 @@ namespace Invector.vCharacterController
                 var forward = Quaternion.AngleAxis(-90, Vector3.up) * right;
                 // determine the direction the player will face based on input and the referenceTransform's right and forward directions
                 moveDirection = (inputSmooth.x * right) + (inputSmooth.z * forward);
+                moveDue = (inputSmooth.z * forward);
+                //moveDue = (inputSmooth.x * right);
             }
             else
             {
