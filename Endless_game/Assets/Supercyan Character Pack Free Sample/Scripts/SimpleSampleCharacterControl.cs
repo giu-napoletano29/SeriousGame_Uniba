@@ -192,9 +192,25 @@ public class SimpleSampleCharacterControl : MonoBehaviour
             //transform.rotation = Quaternion.LookRotation(m_currentDirection);
             //transform.position += m_currentDirection * m_moveSpeed * Time.deltaTime;
 
-            transform.rotation = Quaternion.LookRotation(m_currentDirection);
-            //transform.Rotate(0, m_currentH * m_turnSpeed * Time.deltaTime, 0);
-            m_rigidBody.AddForce(transform.forward * m_moveSpeed, ForceMode.Impulse);
+            //Vector3 movement = new Vector3(h, 0.0f, v);
+            //m_rigidBody.AddForce(movement * m_moveSpeed);
+
+
+
+            //Vector3 velocity = (transform.forward * v) * m_moveSpeed * Time.fixedDeltaTime;
+            //direction.y = m_rigidBody.velocity.y;
+            //direction.x = direction.x * m_moveSpeed;
+            //direction.z = direction.z * m_moveSpeed;
+            //m_rigidBody.velocity = direction;
+            m_rigidBody.AddForce(m_currentDirection * m_moveSpeed);
+            //m_rigidBody.MovePosition(transform.position + m_currentDirection * Time.deltaTime * m_moveSpeed);
+            //m_rigidBody.velocity = m_currentDirection * m_moveSpeed;
+
+            //transform.Rotate((transform.up * h) * m_turnSpeed * Time.fixedDeltaTime);
+            transform.Rotate(0, m_currentH * m_turnSpeed * Time.deltaTime, 0);
+
+
+
 
             m_animator.SetFloat("MoveSpeed", direction.magnitude);
         }
@@ -210,6 +226,7 @@ public class SimpleSampleCharacterControl : MonoBehaviour
         {
             m_jumpTimeStamp = Time.time;
             m_rigidBody.AddForce(Vector3.up * m_jumpForce, ForceMode.Impulse);
+            //m_rigidBody.velocity = new Vector3(0, m_jumpForce, 0);
         }
 
         if (!m_wasGrounded && m_isGrounded)

@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour
     private int enabledSlots;
     private GameObject[] slot;
     private Collider bin;
+    public Sprite defaultIcon;
     private bool BinEnabled = false;
 
     public GameObject slotHolder;
@@ -113,7 +114,7 @@ public class Inventory : MonoBehaviour
             {
 
                 slot[i].GetComponent<Slot>().item = null;
-                slot[i].GetComponent<Slot>().icon = null;
+                slot[i].GetComponent<Slot>().icon = defaultIcon;
                 slot[i].GetComponent<Slot>().ID = -1;
                 slot[i].GetComponent<Slot>().desc = null;
                 slot[i].GetComponent<Slot>().type = null;
