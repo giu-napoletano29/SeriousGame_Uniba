@@ -15,6 +15,7 @@ public class Mainmenu : MonoBehaviour
         tutorialPanel.SetActive(false);
         creditsPanel.SetActive(false);
         exitPanel.SetActive(false);
+        GetComponent<AudioSource>().Play();
     }
     public void ExitGame()
     {

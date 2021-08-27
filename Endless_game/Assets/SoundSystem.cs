@@ -21,10 +21,16 @@ public class SoundSystem : MonoBehaviour
         if (cc.isGrounded == true && cc._rigidbody.velocity.magnitude > 2f && GetComponent<AudioSource>().isPlaying == false)
         {
             //GetComponent<AudioSource>().
-            //GetComponent<AudioSource>().PlayDelayed(0.3f*cc.freeSpeed.runningSpeed);
+            //GetComponent<AudioSource>().PlayDelayed(0.3f*cc.freeSpeed.runningSpeed)
             GetComponent<AudioSource>().PlayDelayed(0.17f);
         }
 
     }
 
+    public void playMusic()
+    {
+        AudioSource sou;
+        sou = GameObject.FindGameObjectWithTag("GameController").GetComponent<AudioSource>();
+        sou.Play();
+    }
 }
