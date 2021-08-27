@@ -37,7 +37,7 @@ public class Mainmenu : MonoBehaviour
         }
         else
         {
-            mainPanel.SetActive(false);
+            //mainPanel.SetActive(false);
             tutorialPanel.SetActive(true);
         }
     }
@@ -52,7 +52,7 @@ public class Mainmenu : MonoBehaviour
         }
         else
         {
-            mainPanel.SetActive(false);
+            //mainPanel.SetActive(false);
             creditsPanel.SetActive(true);
         }
     }
