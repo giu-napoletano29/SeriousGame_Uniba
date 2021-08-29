@@ -16,6 +16,8 @@ public class GameRules : MonoBehaviour
     public List<GameObject> itemToSpawn;
     public List<GameObject> errAlert;
     public GameObject overPanel;
+    public GameObject pausePanel;
+    public GameObject exitPanel;
     public Text overText;
 
     void Start()
@@ -29,6 +31,7 @@ public class GameRules : MonoBehaviour
     {
         int rem = totItems - itemsPicked;
         itemsRem.text = rem.ToString();
+        Pause();
         GameWin();
         checkMistake();
     }
@@ -39,9 +42,9 @@ public class GameRules : MonoBehaviour
         {
             countdownDisplay.text = countdownTime.ToString();
 
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(1f);
             //countdownTime--;
-            countdownTime -= 0.01;
+            countdownTime -= 1;
         }
 
         countdownDisplay.text = "FINE!";
@@ -77,9 +80,39 @@ public class GameRules : MonoBehaviour
     {
         Time.timeScale = 1;
         overPanel.SetActive(false);
+        pausePanel.SetActive(false);
+        exitPanel.SetActive(false);
         for (int i = 0; i <= 2; i++)
         {
             errAlert[i].SetActive(false);
+        }
+    }
+
+    private void Pause()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Time.timeScale = 0;
+            pausePanel.SetActive(true);
+        }
+    }
+    public void unPause()
+    {
+        Time.timeScale = 1;
+        pausePanel.SetActive(false);
+    }
+
+    public void noExit()
+    {
+        if (!exitPanel.activeSelf)
+        {
+            pausePanel.SetActive(false);
+            exitPanel.SetActive(true);
+        }
+        else
+        {
+            exitPanel.SetActive(false);
+            pausePanel.SetActive(true);
         }
     }
 

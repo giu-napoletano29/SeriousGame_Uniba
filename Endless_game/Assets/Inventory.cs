@@ -129,9 +129,12 @@ public class Inventory : MonoBehaviour
                 //Destroy item maybe
                 g.incItemPicked();
             }
-            else
+            else 
             {
-                g.incMistake();
+                if (slot[i].GetComponent<Slot>().empty == false)
+                {
+                    g.incMistake();
+                }             
             }
         }
     }
