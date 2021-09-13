@@ -6,7 +6,7 @@ Progetto di creazione di un Serious Game sull'ambiente per il corso di Progettaz
 
 **Exam**: "Progettazione e Produzione multimendiale"
 
-**Deadline**:  29/08/2021
+**Development time**:  17/08/2021 - 29/08/2021
 
 
 **Professor**: "Veronica Rossano"
